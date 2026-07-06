@@ -1,0 +1,18 @@
+# Local Netlify folder
+.netlify
+
+# Local agent/project notes
+AGENTS.md
+
+# Temporary and generated working files
+tmp/
+automation/
+deploy-claude-fable5/
+scripts/
+
+# Other generated pages not part of the personal portfolio site
+-ai-weekly/
+ai-realtime-news-xhs-2026-06-30/
+ai-daily-*.html
+stock-market-live.html
+公众号排版-ClaudeFable5*.html

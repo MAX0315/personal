@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>黯马 | ANMA PROTFOILO</title>
+    <meta name="description" content="黯马的 AI 设计师个人作品集网站，包含 AI 视频、AI 设计与个人主页展示。" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="home-page">
+    <main>
+      <section class="hero-home" aria-label="首页">
+        <div class="hero-aura-bg" aria-hidden="true">
+          <video
+            class="hero-bg-video"
+            src="assets/videos/hero-bg-loop-lite.mp4"
+            poster="assets/posters/hero-bg-loop.jpg"
+            muted
+            playsinline
+            preload="metadata"
+            loop
+            autoplay
+          ></video>
+          <div class="hero-grid"></div>
+          <div class="hero-aura-light hero-aura-light-main"></div>
+          <div class="hero-aura-light hero-aura-light-side"></div>
+        </div>
+        <div class="hero-shade"></div>
+
+        <header class="site-header">
+          <a class="brand-mark" href="index.html" aria-label="返回首页"><span>ANMA</span></a>
+          <nav class="top-nav" aria-label="主要导航">
+            <a href="videos.html">AI视频作品</a>
+            <a href="design.html">AI设计作品</a>
+            <a href="https://zhanku.zcool.com.cn/" target="_blank" rel="noreferrer">个人主页展示</a>
+          </nav>
+          <div class="contact-menu">
+            <button class="contact-pill" type="button" aria-label="查看联系方式">联系我</button>
+            <div class="contact-popover" role="tooltip">
+              <div class="contact-row">
+                <span class="contact-value">WX Mx2215457940</span>
+                <button class="copy-contact" type="button" data-copy="Mx2215457940" aria-label="复制微信号">复制</button>
+              </div>
+              <div class="contact-row">
+                <a class="contact-value" href="tel:19529307323">TEL 19529307323</a>
+                <button class="copy-contact" type="button" data-copy="19529307323" aria-label="复制电话">复制</button>
+              </div>
+              <a class="contact-value" href="mailto:mx22154@163.com">EMAIL mx22154@163.com</a>
+            </div>
+          </div>
+        </header>
+
+        <div class="hero-stage centered" data-reveal>
+          <div class="hero-title-block">
+            <h1>
+              <span>ANMA</span>
+              <span>PROTFOILO</span>
+            </h1>
+            <p class="eyebrow hero-subtitle">FOR DESIGN</p>
+            <div class="portal-list" aria-label="作品入口">
+              <a class="portal-link" href="videos.html">
+                <span class="edge-light" aria-hidden="true"></span>
+                <span class="portal-index">01</span>
+                <span>
+                  <strong>AI视频作品</strong>
+                  <em>TVC / 产品短片 / 概念影像</em>
+                </span>
+              </a>
+              <a class="portal-link" href="design.html">
+                <span class="edge-light" aria-hidden="true"></span>
+                <span class="portal-index">02</span>
+                <span>
+                  <strong>AI设计作品</strong>
+                  <em>视觉提案 / 平面设计 / 品牌实验</em>
+                </span>
+              </a>
+              <a class="portal-link" href="https://zhanku.zcool.com.cn/" target="_blank" rel="noreferrer">
+                <span class="edge-light" aria-hidden="true"></span>
+                <span class="portal-index">03</span>
+                <span>
+                  <strong>个人主页展示</strong>
+                  <em>ZCOOL / ANMA / Showcase</em>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

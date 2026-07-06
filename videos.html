@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI 视频作品 | 黯马</title>
+    <meta name="description" content="黯马 AI 视频作品集，包含 TVC、产品短片和商业概念影像。" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="works-page">
+    <header class="works-header">
+      <a class="brand-mark" href="index.html" aria-label="返回首页"><span>ANMA</span></a>
+      <nav class="top-nav" aria-label="主要导航">
+        <a href="videos.html" aria-current="page">AI 视频作品</a>
+        <a href="design.html">AI 设计作品</a>
+        <a href="index.html">个人主页展示</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="works-hero" data-reveal>
+        <p class="eyebrow">For Best Design</p>
+        <h1>AI 视频作品</h1>
+        <p>横屏作品优先展示，竖屏作品集中放在下方。</p>
+      </section>
+
+      <section class="video-grid" aria-label="AI 视频作品列表">
+        <article class="video-card featured-row" data-reveal>
+          <video src="assets/videos/3d-shoes.mp4" poster="assets/posters/3d-shoes.jpg" muted loop playsinline preload="metadata"></video>
+          <div class="video-meta">
+            <span>FOOTWEAR / 3D</span>
+            <h2>3D 跑鞋</h2>
+            <p>3D 结构、运动科技与产品质感。</p>
+          </div>
+        </article>
+
+        <article class="video-card featured-row" data-reveal>
+          <video src="assets/videos/ergonomic-chair.mp4" poster="assets/posters/ergonomic-chair.jpg" muted loop playsinline preload="metadata"></video>
+          <div class="video-meta">
+            <span>FURNITURE</span>
+            <h2>人体工学椅</h2>
+            <p>结构、支撑与高级产品氛围。</p>
+          </div>
+        </article>
+
+        <article class="video-card" data-reveal>
+          <video src="assets/videos/c2-robot.mp4" poster="assets/posters/c2-robot.jpg" muted loop playsinline preload="metadata"></video>
+          <div class="video-meta"><span>ROBOTICS</span><h2>水下机器人 C2</h2></div>
+        </article>
+
+        <article class="video-card" data-reveal>
+          <video src="assets/videos/c1-robot.mp4" poster="assets/posters/c1-robot.jpg" muted loop playsinline preload="metadata"></video>
+          <div class="video-meta"><span>ROBOTICS</span><h2>水下机器人 C1</h2></div>
+        </article>
+
+        <article class="video-card" data-reveal>
+          <video src="assets/videos/thruster.mp4" poster="assets/posters/thruster.jpg" muted loop playsinline preload="metadata"></video>
+          <div class="video-meta"><span>ROBOTICS / HARDWARE</span><h2>推进器</h2></div>
+        </article>
+
+        <article class="video-card" data-reveal>
+          <video src="assets/videos/energy-storage.mp4" poster="assets/posters/energy-storage.jpg" muted loop playsinline preload="metadata"></video>
+          <div class="video-meta"><span>ENERGY</span><h2>储能</h2></div>
+        </article>
+
+        <article class="video-card" data-reveal>
+          <video src="assets/videos/carplay.mp4" poster="assets/posters/carplay.jpg" muted loop playsinline preload="metadata"></video>
+          <div class="video-meta"><span>AUTO TECH</span><h2>Carplay</h2></div>
+        </article>
+
+        <article class="video-card" data-reveal>
+          <video src="assets/videos/shelf.mp4" poster="assets/posters/shelf.jpg" muted loop playsinline preload="metadata"></video>
+          <div class="video-meta"><span>LIFESTYLE</span><h2>置物架</h2></div>
+        </article>
+
+        <article class="video-card" data-reveal>
+          <video src="assets/videos/headphones-2.mp4" poster="assets/posters/headphones-2.jpg" muted loop playsinline preload="metadata"></video>
+          <div class="video-meta"><span>AUDIO</span><h2>耳机 2代</h2></div>
+        </article>
+
+        <article class="video-card" data-reveal>
+          <video src="assets/videos/headphones-1.mp4" poster="assets/posters/headphones-1.jpg" muted loop playsinline preload="metadata"></video>
+          <div class="video-meta"><span>AUDIO</span><h2>耳机 1代</h2></div>
+        </article>
+
+        <article class="video-card" data-reveal>
+          <video src="assets/videos/wig.mp4" poster="assets/posters/wig.jpg" muted loop playsinline preload="metadata"></video>
+          <div class="video-meta"><span>FASHION</span><h2>假发</h2></div>
+        </article>
+
+        <article class="video-card portrait" data-reveal>
+          <video src="assets/videos/running-shoes.mp4" poster="assets/posters/running-shoes.jpg" muted loop playsinline preload="metadata"></video>
+          <div class="video-meta"><span>FOOTWEAR / PORTRAIT</span><h2>跑鞋</h2></div>
+        </article>
+
+        <article class="video-card portrait" data-reveal>
+          <video src="assets/videos/dress.mp4" poster="assets/posters/dress.jpg" muted loop playsinline preload="metadata"></video>
+          <div class="video-meta"><span>FASHION / PORTRAIT</span><h2>礼服</h2></div>
+        </article>
+      </section>
+    </main>
+
+    <dialog class="video-dialog" id="videoDialog" aria-label="视频播放">
+      <button class="dialog-close" type="button" aria-label="关闭">×</button>
+      <video controls playsinline></video>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
