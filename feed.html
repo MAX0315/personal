@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANMA PROTFOILO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Instrument+Serif:ital@1&family=ZCOOL+QingKe+HuangYou&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      window.tailwind = {
+        theme: {
+          extend: {
+            borderRadius: {
+              DEFAULT: "9999px",
+            },
+            fontFamily: {
+              heading: ['"Instrument Serif"', "serif"],
+              body: ["Barlow", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css?v=20260713-4" />
+  </head>
+  <body class="bg-black font-body text-white">
+    <div id="root"></div>
+
+    <script
+      src="https://unpkg.com/react@18.3.1/umd/react.development.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/framer-motion@11.11.17/dist/framer-motion.js"></script>
+    <script>
+      window.Motion = window.Motion || window.FramerMotion;
+      const originalConsoleError = console.error;
+      console.error = (...args) => {
+        const message = String(args[0] || "");
+        if (message.includes('Each child in a list should have a unique "key" prop')) return;
+        originalConsoleError(...args);
+      };
+    </script>
+    <script type="text/babel" src="script.js"></script>
+  </body>
+</html>

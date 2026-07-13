@@ -1,18 +1,18 @@
-# Local Netlify folder
-.netlify
+# Installed dependencies and local tool state
+node_modules/
+.netlify/
+.netlify-publish/
 
-# Local agent/project notes
-AGENTS.md
+# Generated deployment bundles and duplicate publish trees
+deploy/site/
+deploy/*.tar.gz
 
-# Temporary and generated working files
-tmp/
-automation/
-deploy-claude-fable5/
-scripts/
+# Never commit server credentials or private keys
+deploy/anmaai_deploy_key*
+*.pem
+*.key
 
-# Other generated pages not part of the personal portfolio site
--ai-weekly/
-ai-realtime-news-xhs-2026-06-30/
-ai-daily-*.html
-stock-market-live.html
-公众号排版-ClaudeFable5*.html
+# Local logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
