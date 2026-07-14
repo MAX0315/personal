@@ -2183,6 +2183,16 @@ function Header({ compact = false, currentPage = "" }) {
   );
 }
 
+function SiteFooter() {
+  return (
+    <footer className="site-footer">
+      <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">
+        苏ICP备2026047442号
+      </a>
+    </footer>
+  );
+}
+
 function Home() {
   return (
     <main className="home-shell">
@@ -2208,6 +2218,7 @@ function Home() {
         </motion.div>
         <HomeUtilityRow />
       </section>
+      <SiteFooter />
     </main>
   );
 }
@@ -2244,6 +2255,7 @@ function VideoWorks() {
           <VideoSection section={section} key={section.title} />
         ))}
       </section>
+      <SiteFooter />
     </main>
   );
 }
@@ -2308,6 +2320,7 @@ function FeedWorks() {
           <VideoSection section={section} key={section.title} />
         ))}
       </section>
+      <SiteFooter />
     </main>
   );
 }
@@ -2332,6 +2345,7 @@ function DesignWorks() {
           <DesignSection section={section} key={section.title} />
         ))}
       </section>
+      <SiteFooter />
     </main>
   );
 }
