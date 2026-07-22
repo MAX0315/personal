@@ -1,11 +1,11 @@
 # ANMA Portfolio
 
-ANMA 的个人 AI 作品集静态网站，包含首页、AI 视频作品、AI 设计作品与信息流视频展示。
+ANMA 的个人 AI 作品集静态网站，包含首页、AI 视频作品、AI 设计作品、信息流视频与短剧视频展示。
 
 ## 页面
 
 - `index.html`：作品集首页
-- `video.html`：AI 视频作品
+- `video.html`：AI 视频作品，包含 TVC、投放案例、信息流与短剧内容
 - `design.html`：AI 设计作品
 - `feed.html`：信息流视频
 
@@ -29,7 +29,16 @@ node serve-local.mjs
 
 大型二进制资源通过 Git LFS 管理。依赖目录、部署产物、缓存和服务器私钥不会提交到仓库。
 
+## 当前内容状态
+
+- 投放案例视频已扩展至 `ads-042.mp4`
+- 新增 30 条短剧视频：`drama-001.mp4` 至 `drama-030.mp4`
+- 手机端 AI 设计导航固定在顶部
+- 手机端 AI 视频竖版作品采用双列布局
+
 ## 在线地址
 
-- 域名：`anmaai.cn`
-- 服务器预览：`http://47.97.34.195/`
+- 正式域名：[anmaai.cn](https://anmaai.cn/)
+- Netlify 站点：[flourishing-sprite-5edd07.netlify.app](https://flourishing-sprite-5edd07.netlify.app/)
+- 服务器预览：[47.97.34.195](http://47.97.34.195/)
+

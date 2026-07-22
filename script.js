@@ -9,6 +9,13 @@ const tvcWorks = [
     "category": "TVC案例_横"
   },
   {
+    "title": "人体工学椅",
+    "file": "tvc-009.mp4",
+    "orientation": "landscape",
+    "source": "tvc",
+    "category": "TVC案例_横"
+  },
+  {
     "title": "耳机1_横1920",
     "file": "tvc-002.mp4",
     "orientation": "landscape",
@@ -56,13 +63,6 @@ const tvcWorks = [
     "orientation": "portrait",
     "source": "tvc",
     "category": "TVC案例_竖"
-  },
-  {
-    "title": "人体工学椅_横1920",
-    "file": "tvc-009.mp4",
-    "orientation": "landscape",
-    "source": "tvc",
-    "category": "TVC案例_横"
   },
   {
     "title": "推进器_横1920",
@@ -360,8 +360,48 @@ const adWorks = [
     "orientation": "portrait",
     "source": "ads",
     "category": "投放案例_竖"
+  },
+  {
+    "title": "Honor_横1920_手机7",
+    "file": "ads-039.mp4",
+    "orientation": "landscape",
+    "source": "ads",
+    "category": "投放案例_横"
+  },
+  {
+    "title": "Honor_横1920_手机8",
+    "file": "ads-040.mp4",
+    "orientation": "landscape",
+    "source": "ads",
+    "category": "投放案例_横"
+  },
+  {
+    "title": "Honor_横1920_手机9",
+    "file": "ads-041.mp4",
+    "orientation": "landscape",
+    "source": "ads",
+    "category": "投放案例_横"
+  },
+  {
+    "title": "Honor_横1920_手机10",
+    "file": "ads-042.mp4",
+    "orientation": "landscape",
+    "source": "ads",
+    "category": "投放案例_横"
   }
 ];
+
+const dramaWorks = Array.from({ length: 30 }, (_, index) => {
+  const number = String(index + 1).padStart(2, "0");
+
+  return {
+    title: `Every ${number}`,
+    file: `drama-${String(index + 1).padStart(3, "0")}.mp4`,
+    orientation: "portrait",
+    source: "drama",
+    category: "短剧视频",
+  };
+});
 
 const feedWorks = [
   {
@@ -2242,6 +2282,7 @@ function VideoWorks() {
     { title: "TVC案例_竖", works: tvcWorks.filter((work) => work.category === "TVC案例_竖"), variant: "portrait" },
     { title: "投放案例_横", works: adWorks.filter((work) => work.category === "投放案例_横"), variant: "landscape" },
     { title: "投放案例_竖", works: adWorks.filter((work) => work.category === "投放案例_竖"), variant: "portrait" },
+    { title: "短剧视频", works: dramaWorks, variant: "portrait" },
   ];
 
   return (
@@ -2282,12 +2323,14 @@ function VideoSection({ section }) {
 
 function VideoCard({ work }) {
   const src = `assets/videos/${work.source}/${work.file}`;
+  const poster = `assets/posters/${work.source}/${work.file.replace(/\.[^.]+$/, ".jpg")}`;
 
   return (
     <article className={`work-card liquid-glass ${work.orientation}`} key={work.file}>
       <div className="video-frame">
         <video
           src={src}
+          poster={poster}
           controls
           preload="metadata"
           playsInline

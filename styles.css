@@ -1300,11 +1300,25 @@ a {
 
   .secondary-header {
     align-items: stretch;
-    flex-direction: column;
+    display: grid;
+    gap: 6px;
+    grid-template-columns: 64px minmax(0, 1fr);
+    left: 12px;
+    position: fixed;
+    right: 12px;
+    top: max(10px, env(safe-area-inset-top));
+    width: auto;
+  }
+
+  .secondary-tab {
+    height: 100%;
+    min-width: 0;
+    padding-inline: 8px;
   }
 
   .secondary-nav {
     display: grid;
+    gap: 6px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     justify-content: stretch;
   }
@@ -1365,8 +1379,50 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .video-page .portrait-grid {
+    align-items: stretch;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .video-page .portrait-grid .work-card,
+  .video-page .portrait-grid .work-card.portrait,
+  .video-page .portrait-grid .work-card.landscape,
+  .video-page .portrait-grid .work-card[data-video-shape] {
+    box-sizing: border-box;
+    height: 100%;
+    max-width: none;
+    min-width: 0;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .video-page .portrait-grid .work-card.portrait .video-frame,
+  .video-page .portrait-grid .work-card[data-video-shape="portrait"] .video-frame,
+  .video-page .portrait-grid .work-card[data-video-shape="square"] .video-frame {
+    margin-inline: auto;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .video-page .portrait-grid .work-meta {
+    gap: 5px;
+    min-width: 0;
+    padding: 0 1px 2px;
+  }
+
+  .video-page .portrait-grid .work-meta strong {
+    font-size: 0.74rem;
+    overflow-wrap: anywhere;
+  }
+
+  .video-page .portrait-grid .work-meta > a {
+    font-size: 0.68rem;
+  }
+
   .works-hero {
-    margin-top: 70px;
+    margin-top: 110px;
   }
 
   .design-masonry {
