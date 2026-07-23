@@ -989,6 +989,8 @@ a {
 }
 
 .design-page .case-section {
+  contain-intrinsic-size: auto 900px;
+  content-visibility: auto;
   gap: 18px;
 }
 
@@ -1034,6 +1036,10 @@ a {
 }
 
 .design-work-card .image-frame {
+  background:
+    linear-gradient(110deg, rgba(255, 255, 255, 0.035) 8%, rgba(214, 175, 105, 0.11) 18%, rgba(255, 255, 255, 0.035) 33%),
+    rgba(255, 255, 255, 0.02);
+  background-size: 220% 100%;
   max-width: 100%;
   overflow: hidden;
   width: max-content;

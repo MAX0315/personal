@@ -2384,8 +2384,8 @@ function DesignWorks() {
         <h1>AI设计作品</h1>
       </section>
       <section className="video-section">
-        {sections.map((section) => (
-          <DesignSection section={section} key={section.title} />
+        {sections.map((section, sectionIndex) => (
+          <DesignSection section={section} sectionIndex={sectionIndex} key={section.title} />
         ))}
       </section>
       <SiteFooter />
@@ -2393,7 +2393,7 @@ function DesignWorks() {
   );
 }
 
-function DesignSection({ section }) {
+function DesignSection({ section, sectionIndex }) {
   const [collapsed, setCollapsed] = React.useState(false);
 
   return (
@@ -2406,7 +2406,13 @@ function DesignSection({ section }) {
       </div>
       {!collapsed && (section.works.length ? (
         <div className="design-masonry">
-          {section.works.map((work) => <DesignCard work={work} key={work.file} />)}
+          {section.works.map((work, workIndex) => (
+            <DesignCard
+              work={work}
+              priority={sectionIndex === 0 && workIndex < 12}
+              key={work.file}
+            />
+          ))}
         </div>
       ) : (
         <div className="empty-section liquid-glass">该分类暂无作品</div>
@@ -2415,18 +2421,30 @@ function DesignSection({ section }) {
   );
 }
 
-function DesignCard({ work }) {
+function DesignCard({ work, priority = false }) {
   const folder = work.folder || "operation-posters";
-  const src = `assets/design/${folder}/${work.file}`;
+  const fullSrc = `assets/design/${folder}/${work.file}`;
+  const thumbnailFile = work.file.replace(/\.[^.]+$/, ".webp");
+  const thumbnailSrc = `assets/design-thumbs/${folder}/${thumbnailFile}`;
 
   return (
     <article className={`work-card design-work-card liquid-glass ${work.orientation}`} key={work.file}>
-      <a className="image-frame" href={src} target="_blank" rel="noreferrer" aria-label={`打开${work.title}`}>
-        <img src={src} alt={work.title} loading="lazy" />
+      <a className="image-frame" href={fullSrc} target="_blank" rel="noreferrer" aria-label={`打开${work.title}`}>
+        <img
+          src={thumbnailSrc}
+          alt={work.title}
+          loading={priority ? "eager" : "lazy"}
+          decoding="async"
+          fetchPriority={priority ? "high" : "auto"}
+          onError={(event) => {
+            event.currentTarget.onerror = null;
+            event.currentTarget.src = fullSrc;
+          }}
+        />
       </a>
       <div className="work-meta">
         <strong>{work.title}</strong>
-        <a href={src} target="_blank" rel="noreferrer">查看 <ArrowUpRight className="h-4 w-4" /></a>
+        <a href={fullSrc} target="_blank" rel="noreferrer">查看 <ArrowUpRight className="h-4 w-4" /></a>
       </div>
     </article>
   );
