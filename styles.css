@@ -1280,9 +1280,9 @@ a {
   .home-utility-row .wechat-qr-popover > .contact-trigger {
     grid-column: 3;
     grid-row: 1;
-    justify-self: center;
+    justify-self: stretch;
     min-width: 0;
-    width: 44px;
+    width: 100%;
   }
 
   .home-utility-row .wechat-qr-card {
