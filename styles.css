@@ -235,6 +235,10 @@ a {
   position: relative;
 }
 
+.wechat-qr-popover {
+  position: relative;
+}
+
 .about-popover {
   position: relative;
 }
@@ -374,6 +378,45 @@ a {
 
 .home-utility-row .contact-trigger {
   min-width: 92px;
+}
+
+.wechat-qr-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 50%;
+  opacity: 0;
+  padding: 12px;
+  pointer-events: none;
+  position: absolute;
+  top: calc(100% + 18px);
+  transform: translate(-50%, -6px);
+  transition: opacity 180ms ease, transform 180ms ease;
+  width: 226px;
+  z-index: 22;
+}
+
+.wechat-qr-card img {
+  background: #fff;
+  border-radius: 8px;
+  display: block;
+  height: auto;
+  width: 202px;
+}
+
+.wechat-qr-card span {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+}
+
+.wechat-qr-popover:hover .wechat-qr-card,
+.wechat-qr-popover:focus-within .wechat-qr-card,
+.wechat-qr-popover.is-open .wechat-qr-card {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, 0);
 }
 
 .home-utility-row .contact-menu,
@@ -1188,14 +1231,15 @@ a {
   .home-utility-row {
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 104px));
+    grid-template-columns: repeat(3, minmax(0, 104px));
     justify-content: center;
     margin-top: 24px;
     padding-bottom: 0;
   }
 
   .home-utility-row .about-popover,
-  .home-utility-row .home-contact {
+  .home-utility-row .home-contact,
+  .home-utility-row .wechat-qr-popover {
     display: contents;
   }
 
@@ -1209,6 +1253,35 @@ a {
     grid-column: 2;
     grid-row: 1;
     width: 100%;
+  }
+
+  .home-utility-row .wechat-qr-popover > .contact-trigger {
+    grid-column: 3;
+    grid-row: 1;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .home-utility-row .wechat-qr-card {
+    display: none;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-self: center;
+    left: auto;
+    margin-top: 14px;
+    opacity: 1;
+    padding: 12px;
+    pointer-events: auto;
+    position: static;
+    top: auto;
+    transform: none;
+    width: 226px;
+  }
+
+  .home-utility-row .wechat-qr-popover.is-open .wechat-qr-card,
+  .home-utility-row .wechat-qr-popover:focus-within .wechat-qr-card {
+    display: flex;
+    transform: none;
   }
 
   .home-utility-row .contact-menu,
