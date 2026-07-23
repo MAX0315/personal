@@ -1169,6 +1169,37 @@ a {
 }
 
 @media (max-width: 1180px) {
+  .feed-page .portrait-grid,
+  .feed-page .landscape-grid {
+    align-items: stretch;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .feed-page .portrait-grid .work-card,
+  .feed-page .landscape-grid .work-card,
+  .feed-page .work-card.portrait,
+  .feed-page .work-card.landscape,
+  .feed-page .work-card[data-video-shape] {
+    box-sizing: border-box;
+    height: 100%;
+    max-width: none;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .feed-page .portrait-grid .video-frame,
+  .feed-page .landscape-grid .video-frame,
+  .feed-page .work-card[data-video-shape] .video-frame {
+    margin-inline: auto;
+    max-width: 100%;
+    width: 100%;
+  }
+
   .design-page .case-section {
     max-width: 100%;
     min-width: 0;
@@ -1210,6 +1241,11 @@ a {
 }
 
 @media (max-width: 900px) {
+  .feed-page .portrait-grid,
+  .feed-page .landscape-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .action-grid,
   .design-grid {
     grid-template-columns: 1fr;
