@@ -1529,7 +1529,9 @@ a {
 
   .design-masonry {
     align-items: flex-start;
-    gap: 10px;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     max-width: 100%;
     overflow: visible;
     width: 100%;
@@ -1547,17 +1549,16 @@ a {
 
   .design-work-card {
     box-sizing: border-box;
-    flex: 0 0 calc((100% - 10px) / 2);
-    max-width: calc((100% - 10px) / 2);
+    max-width: 100%;
     min-width: 0;
     padding: 5px;
-    width: calc((100% - 10px) / 2);
+    width: 100%;
   }
 
   .design-page .design-work-card.portrait,
   .design-page .design-work-card.landscape {
-    max-width: calc((100% - 10px) / 2);
-    width: calc((100% - 10px) / 2);
+    max-width: 100%;
+    width: 100%;
   }
 
   .design-work-card .image-frame {
