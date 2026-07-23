@@ -1168,6 +1168,47 @@ a {
   font-weight: 400;
 }
 
+@media (max-width: 1180px) {
+  .design-page .case-section {
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .design-masonry {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .design-work-card,
+  .design-page .design-work-card.portrait,
+  .design-page .design-work-card.landscape {
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .design-work-card .image-frame,
+  .design-page .design-work-card.portrait .image-frame,
+  .design-page .design-work-card.landscape .image-frame {
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .design-work-card .image-frame img {
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    width: 100%;
+  }
+}
+
 @media (max-width: 900px) {
   .action-grid,
   .design-grid {
@@ -1183,8 +1224,11 @@ a {
   }
 
   .design-masonry {
-    gap: 12px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     max-width: 100%;
+    min-width: 0;
     overflow: hidden;
     width: 100%;
   }
