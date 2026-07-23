@@ -2183,11 +2183,12 @@ function WechatQrHover({ open = false, onEnter, onLeave, onToggle }) {
       <button
         className="liquid-glass contact-trigger wechat-qr-trigger"
         type="button"
+        aria-label="显示微信二维码"
         aria-expanded={open}
         aria-controls="home-wechat-qr"
         onClick={onToggle}
       >
-        微信二维码
+        <img className="wechat-qr-icon" src="assets/wechat-qr.png" alt="" aria-hidden="true" />
       </button>
       <div id="home-wechat-qr" className="wechat-qr-card liquid-glass" role="dialog" aria-label="微信二维码">
         <img src="assets/wechat-qr.png" alt="ANMA 微信二维码" width="678" height="677" />

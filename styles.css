@@ -397,6 +397,24 @@ a {
   z-index: 22;
 }
 
+.wechat-qr-trigger {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  min-width: 44px !important;
+  padding: 0;
+  width: 44px;
+}
+
+.wechat-qr-trigger .wechat-qr-icon {
+  background: #fff;
+  border-radius: 3px;
+  display: block;
+  height: 20px;
+  object-fit: cover;
+  width: 20px;
+}
+
 .wechat-qr-card img {
   background: #fff;
   border-radius: 8px;
@@ -1258,8 +1276,9 @@ a {
   .home-utility-row .wechat-qr-popover > .contact-trigger {
     grid-column: 3;
     grid-row: 1;
+    justify-self: center;
     min-width: 0;
-    width: 100%;
+    width: 44px;
   }
 
   .home-utility-row .wechat-qr-card {
