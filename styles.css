@@ -399,6 +399,7 @@ a {
 
 .wechat-qr-trigger {
   align-items: center;
+  color: rgba(255, 255, 255, 0.9);
   display: inline-flex;
   justify-content: center;
   min-width: 44px !important;
@@ -407,12 +408,15 @@ a {
 }
 
 .wechat-qr-trigger .wechat-qr-icon {
-  background: #fff;
-  border-radius: 3px;
   display: block;
-  height: 20px;
-  object-fit: cover;
-  width: 20px;
+  height: 19px;
+  width: 19px;
+}
+
+.wechat-qr-trigger:hover,
+.wechat-qr-trigger:focus-visible {
+  background: rgba(255, 255, 255, 0.13);
+  color: #fff;
 }
 
 .wechat-qr-card img {

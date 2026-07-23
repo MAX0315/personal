@@ -2159,6 +2159,17 @@ function WechatIcon() {
   );
 }
 
+function QrCodeIcon() {
+  return (
+    <svg className="wechat-qr-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <rect x="3.5" y="3.5" width="6" height="6" rx="1" stroke="currentColor" strokeWidth="1.7" />
+      <rect x="14.5" y="3.5" width="6" height="6" rx="1" stroke="currentColor" strokeWidth="1.7" />
+      <rect x="3.5" y="14.5" width="6" height="6" rx="1" stroke="currentColor" strokeWidth="1.7" />
+      <path d="M14.5 14.5h2.4v2.4h-2.4zM18.1 14.5h2.4v2.4h-2.4zM14.5 18.1h2.4v2.4h-2.4zM18.1 18.1h2.4v2.4h-2.4z" fill="currentColor" />
+    </svg>
+  );
+}
+
 function ContactHover({ className = "", open = false, onEnter, onLeave }) {
   return (
     <div className={`contact-popover${className ? ` ${className}` : ""}${open ? " is-open" : ""}`} onMouseEnter={onEnter} onMouseLeave={onLeave} onFocus={onEnter} onBlur={onLeave}>
@@ -2188,7 +2199,7 @@ function WechatQrHover({ open = false, onEnter, onLeave, onToggle }) {
         aria-controls="home-wechat-qr"
         onClick={onToggle}
       >
-        <img className="wechat-qr-icon" src="assets/wechat-qr.png" alt="" aria-hidden="true" />
+        <QrCodeIcon />
       </button>
       <div id="home-wechat-qr" className="wechat-qr-card liquid-glass" role="dialog" aria-label="微信二维码">
         <img src="assets/wechat-qr.png" alt="ANMA 微信二维码" width="678" height="677" />
