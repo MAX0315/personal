@@ -60,7 +60,7 @@ createServer((request, response) => {
     return;
   }
 
-  const target = pathname === "/" || pathname === "/video.html" || pathname === "/design.html" ? "index.html" : pathname.slice(1);
+  const target = pathname === "/" ? "index.html" : pathname.slice(1);
   const filePath = normalize(join(root, target));
 
   if (!filePath.startsWith(root) || !existsSync(filePath) || !statSync(filePath).isFile()) {

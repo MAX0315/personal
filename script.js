@@ -2413,6 +2413,7 @@ function FeedWorks() {
 }
 
 function DesignWorks() {
+  const [viewerIndex, setViewerIndex] = React.useState(-1);
   const sections = [
     { title: "AI商业海报", works: commercialWorks, variant: "masonry" },
     { title: "运营海报_横", works: designWorks.filter((work) => work.category === "运营海报_横"), variant: "landscape" },
@@ -2421,7 +2422,14 @@ function DesignWorks() {
     { title: "IP系列", works: ipWorks, variant: "landscape" },
   ];
 
+  const allWorks = sections.flatMap((section) => section.works);
+  const openViewer = (work) => {
+    const index = allWorks.indexOf(work);
+    if (index >= 0) setViewerIndex(index);
+  };
+
   return (
+    <>
     <main className="works-page design-page">
       <Header compact currentPage="design" />
       <section className="works-hero">
@@ -2429,15 +2437,19 @@ function DesignWorks() {
       </section>
       <section className="video-section">
         {sections.map((section, sectionIndex) => (
-          <DesignSection section={section} sectionIndex={sectionIndex} key={section.title} />
+          <DesignSection section={section} sectionIndex={sectionIndex} onOpen={openViewer} key={section.title} />
         ))}
       </section>
       <SiteFooter />
     </main>
+    {viewerIndex >= 0 && (
+      <DesignLightbox works={allWorks} index={viewerIndex} onChange={setViewerIndex} onClose={() => setViewerIndex(-1)} />
+    )}
+    </>
   );
 }
 
-function DesignSection({ section, sectionIndex }) {
+function DesignSection({ section, sectionIndex, onOpen }) {
   const [collapsed, setCollapsed] = React.useState(false);
 
   return (
@@ -2454,6 +2466,7 @@ function DesignSection({ section, sectionIndex }) {
             <DesignCard
               work={work}
               priority={sectionIndex === 0 && workIndex < 12}
+              onOpen={() => onOpen(work)}
               key={work.file}
             />
           ))}
@@ -2465,15 +2478,70 @@ function DesignSection({ section, sectionIndex }) {
   );
 }
 
-function DesignCard({ work, priority = false }) {
+function getDesignFullSrc(work) {
   const folder = work.folder || "operation-posters";
-  const fullSrc = `assets/design/${folder}/${work.file}`;
+  return `assets/design/${folder}/${work.file}`;
+}
+
+function DesignLightbox({ works, index, onChange, onClose }) {
+  const work = works[index];
+  const fullSrc = getDesignFullSrc(work);
+  const move = React.useCallback((step) => {
+    onChange((current) => (current + step + works.length) % works.length);
+  }, [onChange, works.length]);
+
+  React.useEffect(() => {
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const onKeyDown = (event) => {
+      if (event.key === "Escape") onClose();
+      if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
+        event.preventDefault();
+        move(-1);
+      }
+      if (event.key === "ArrowRight" || event.key === "ArrowDown") {
+        event.preventDefault();
+        move(1);
+      }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [move, onClose]);
+
+  React.useEffect(() => {
+    [-1, 1].forEach((step) => {
+      const nearby = works[(index + step + works.length) % works.length];
+      const image = new Image();
+      image.src = getDesignFullSrc(nearby);
+    });
+  }, [index, works]);
+
+  return (
+    <div className="design-lightbox" role="dialog" aria-modal="true" aria-label={`查看${work.title}`} onClick={(event) => event.target === event.currentTarget && onClose()}>
+      <button className="lightbox-close" type="button" onClick={onClose} aria-label="关闭图片预览">×</button>
+      <button className="lightbox-nav lightbox-prev" type="button" onClick={() => move(-1)} aria-label="上一张图片">‹</button>
+      <figure className="lightbox-stage">
+        <img src={fullSrc} alt={work.title} />
+        <figcaption><strong>{work.title}</strong><span>{index + 1} / {works.length}</span></figcaption>
+      </figure>
+      <button className="lightbox-nav lightbox-next" type="button" onClick={() => move(1)} aria-label="下一张图片">›</button>
+      <div className="lightbox-hint">方向键切换 · Esc 关闭</div>
+    </div>
+  );
+}
+
+function DesignCard({ work, priority = false, onOpen }) {
+  const folder = work.folder || "operation-posters";
+  const fullSrc = getDesignFullSrc(work);
   const thumbnailFile = work.file.replace(/\.[^.]+$/, ".webp");
   const thumbnailSrc = `assets/design-thumbs/${folder}/${thumbnailFile}`;
 
   return (
     <article className={`work-card design-work-card liquid-glass ${work.orientation}`} key={work.file}>
-      <a className="image-frame" href={fullSrc} target="_blank" rel="noreferrer" aria-label={`打开${work.title}`}>
+      <button className="image-frame design-preview-trigger" type="button" onClick={onOpen} aria-label={`预览${work.title}`}>
         <img
           src={thumbnailSrc}
           alt={work.title}
@@ -2485,10 +2553,10 @@ function DesignCard({ work, priority = false }) {
             event.currentTarget.src = fullSrc;
           }}
         />
-      </a>
+      </button>
       <div className="work-meta">
         <strong>{work.title}</strong>
-        <a href={fullSrc} target="_blank" rel="noreferrer">查看 <ArrowUpRight className="h-4 w-4" /></a>
+        <button className="design-view-button" type="button" onClick={onOpen}>查看 <ArrowUpRight className="h-4 w-4" /></button>
       </div>
     </article>
   );
