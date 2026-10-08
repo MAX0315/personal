@@ -1,0 +1,362 @@
+{
+  "source": "https://anma-portfolio-max0315.netlify.app/",
+  "syncedAt": "2026-10-08T12:01:24.985Z",
+  "resources": [
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/",
+      "localPath": "index.html",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 23199,
+      "sha256": "bfb342b65832beeb04a7bb145148e1b6b0540d029a62d343604f3e9391704f0f"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/anma-ip-v2.webp",
+      "localPath": "anma-ip-v2.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 3730,
+      "sha256": "5a64e9779d44c22c2cafa315178c52c889f239fc0f3614fb717e5f14f85f8f93"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-01.webp",
+      "localPath": "works/work-01.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 141798,
+      "sha256": "af642a954b5d1cebcb3f1df241504ca758945ccc2938670e962a91d24fe43e41"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-08.webp",
+      "localPath": "works/work-08.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 110272,
+      "sha256": "f1c8f53fecbd0b6c9722cb2a79f42ad241823fa72de93e1eca93f8c3503b1773"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-02.webp",
+      "localPath": "works/work-02.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 152438,
+      "sha256": "a63efbbf9263a5293d161dad6faa541c3e2c7bb51b7c801867264eea2c99bbc8"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-09.webp",
+      "localPath": "works/work-09.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 101822,
+      "sha256": "9302e6de02f4847b48ca3275deb97cb8b3225ac1fda5b4df1c5618448bb0cd3c"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-03.webp",
+      "localPath": "works/work-03.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 162354,
+      "sha256": "9651c1f0c6d6e0dce76f46b52bc7e967c0af480ad5e452f4ac5fb4f4a56591d7"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-10.webp",
+      "localPath": "works/work-10.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 87192,
+      "sha256": "ac89eb487302d8009a159d2f6caea453ebafdb40306547e478c983d2c4eb9827"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-04.webp",
+      "localPath": "works/work-04.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 88652,
+      "sha256": "3fd6d5f3307b9be8253c55b94f6fa9642d6afa8428c551b236957ad8f895afd6"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-11.webp",
+      "localPath": "works/work-11.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 95210,
+      "sha256": "bc83415a25d487cf5f2d4d0c24f27f730d1be975ec872e9790e2a998413f3cde"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-05.webp",
+      "localPath": "works/work-05.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 63862,
+      "sha256": "ddf838bc42093e6f97485e6debf30851e5bf24a5027d20d3c3431771ecff661a"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/assets/index-BAEk22he.css",
+      "localPath": "assets/index-BAEk22he.css",
+      "status": 200,
+      "contentType": "text/css; charset=UTF-8",
+      "bytes": 47304,
+      "sha256": "3d8d125fb72c68ff3109f556cc15df7954e423b3589594732a7f69830b75a549"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/hero-bg-mobile-720.mp4",
+      "localPath": "hero-bg-mobile-720.mp4",
+      "status": 200,
+      "contentType": "video/mp4",
+      "bytes": 1248803,
+      "sha256": "4360779bb46b77c2cab9fe8862053abebc892b718309d4ecc437960f6611ffc2"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/assets/layout-segment-context-BPbu7wGc.js",
+      "localPath": "assets/layout-segment-context-BPbu7wGc.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 288,
+      "sha256": "ae9df184c1164992e7c9763ecd4c10c8bb31dc052faf606c3af9bd768e7e69a9"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/assets/rolldown-runtime-S-ySWqyJ.js",
+      "localPath": "assets/rolldown-runtime-S-ySWqyJ.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 694,
+      "sha256": "5db5ba82eef00d1dee7e86e663098c9427d01183a88d357437daff295aec3e75"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/assets/index-rxIiwHWK.js",
+      "localPath": "assets/index-rxIiwHWK.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 80717,
+      "sha256": "2f85f22149cd0bcfaab27cf04a9a5201fb4bc91f2d15607f29dc9ac8045e9d63"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/assets/framework-DjPHiq1u.js",
+      "localPath": "assets/framework-DjPHiq1u.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 189761,
+      "sha256": "e1c95fc407283714d3fc4e9666d2fac09df84f3b4d479fcabdf8c4e3e53fa985"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/assets/page-aYnBEJly.js",
+      "localPath": "assets/page-aYnBEJly.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 27285,
+      "sha256": "93d200d3052088b653d0e31404a33b582f8cba8d69142ffab650f0099100d765"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/experience-ip.webp",
+      "localPath": "experience-ip.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 90650,
+      "sha256": "b367097ceb432aed1cf34b04acc051a6dc1a59dcbf4370bb7a64b9769eb9dfa2"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/work-categories/ai-video-cover.webp",
+      "localPath": "work-categories/ai-video-cover.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 204948,
+      "sha256": "505bfdf4d9887a24650cf0336b6fb58d1f569c2b6077b8f7cb32bb1a70827425"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/work-categories/ai-design-cover.webp",
+      "localPath": "work-categories/ai-design-cover.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 154960,
+      "sha256": "b6465b02946dcd0cb411112738e2bfa4078b9fbd7c6034153c9b3104eca0b948"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/work-categories/feed-video-cover.webp",
+      "localPath": "work-categories/feed-video-cover.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 163026,
+      "sha256": "34db0b1c21e3c13ad06313127b7b1b1a518926f3592eb81490964765bf02de0b"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/strengths/strength-1.webp",
+      "localPath": "strengths/strength-1.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 16292,
+      "sha256": "cb2501f664dd4b1957766057aa1772d46d8a551231f7c27658bad363d8438627"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/strengths/strength-2.webp",
+      "localPath": "strengths/strength-2.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 18824,
+      "sha256": "73b00c43cde032b37faaa3bf48867e0228d45ea15783670385a6ab32ea0d3bf8"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/strengths/strength-3.webp",
+      "localPath": "strengths/strength-3.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 19732,
+      "sha256": "62929f0b23b88b9794a0ed959e715742ff2d2e86b7a6fa2c9c39ed425deefef0"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/strengths/strength-4.webp",
+      "localPath": "strengths/strength-4.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 13794,
+      "sha256": "7a65dd7cfe7c5cc04279f51a4aff20659a6ad9f50a843b1d3223f9aef45461bc"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/strengths/strength-5.webp",
+      "localPath": "strengths/strength-5.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 16372,
+      "sha256": "2ee40f6bd5c3f99de8a5ba9105b893816b07905836e8c3a803be15a403378470"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/contact-qr.webp",
+      "localPath": "contact-qr.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 55012,
+      "sha256": "997da52a67a466ec88d67c6b9424d0f2dbf03186f08221f26cdaea63df6e8dbf"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/hero-bg-4k-audio.mp3",
+      "localPath": "hero-bg-4k-audio.mp3",
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 244539,
+      "sha256": "6dc567217441552239ef0c66ce279a3ad1edab6666e18afdc5429e877b53a63f"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-12.webp",
+      "localPath": "works/work-12.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 34154,
+      "sha256": "5864faa7abadef3e6747b372ae337fb8e7cd97cea5cb8469d8c5674b3987d870"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-06.webp",
+      "localPath": "works/work-06.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 73956,
+      "sha256": "2485e622477c0021d76d6454f5cdd337e60ec7f4cc76b54cc7dd9e47ce06a345"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-13.webp",
+      "localPath": "works/work-13.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 55148,
+      "sha256": "ba2b21f63ebeb187d28388e2660a429b9c395282a10404f7189ee4b7496bb8dc"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-07.webp",
+      "localPath": "works/work-07.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 107980,
+      "sha256": "18188e27ea350e832b9c8e308a59292dcb9dfc11a274d9ce675f8227bb444049"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-14.webp",
+      "localPath": "works/work-14.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 63296,
+      "sha256": "b24eacc809aa2c08ccdca856d815c9d70cd85bc819bdeee100fac1107214a1c5"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/works/work-15.webp",
+      "localPath": "works/work-15.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 64392,
+      "sha256": "ad87961b9cbf18c8564620344908fd0c45ef19153deec3d301ead1abaecc31ba"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/favicon.ico",
+      "localPath": "favicon.ico",
+      "status": 200,
+      "contentType": "image/vnd.microsoft.icon",
+      "bytes": 15086,
+      "sha256": "d029ee2f8b418ee988836acac9bb63b82be5e23d285c52d1f1afdfe3e546f4fe"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/fonts/hanyi-yakuhei-85.ttf",
+      "localPath": "fonts/hanyi-yakuhei-85.ttf",
+      "status": 200,
+      "contentType": "font/ttf",
+      "bytes": 2415672,
+      "sha256": "9f511a7ff009d0d9286624952a209d54417b4af6d238c5ce08e91c86b5a86714"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/fonts/din-cond-black.otf",
+      "localPath": "fonts/din-cond-black.otf",
+      "status": 200,
+      "contentType": "font/otf",
+      "bytes": 31144,
+      "sha256": "7b29f6a327e657b96492a506754b310b76651a943cf4a6c3356d8a70897f2dd3"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/fonts/din-pro-light.otf",
+      "localPath": "fonts/din-pro-light.otf",
+      "status": 200,
+      "contentType": "font/otf",
+      "bytes": 88240,
+      "sha256": "f26fe203a4ca1f9bcb69ca93a33c8df19a3656e1a4a634d92f4aac53036d269e"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/fonts/din-pro-medium.otf",
+      "localPath": "fonts/din-pro-medium.otf",
+      "status": 200,
+      "contentType": "font/otf",
+      "bytes": 89060,
+      "sha256": "4f353e87997c254c379a81770045d40814f32baa2c534540d103415337b5fb93"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/fonts/din-pro-bold.otf",
+      "localPath": "fonts/din-pro-bold.otf",
+      "status": 200,
+      "contentType": "font/otf",
+      "bytes": 90228,
+      "sha256": "e67ddf8c385e538b5cc80dfc0e7ac15b1bee2c59280a626321c5f8bae467cec0"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/hero-bg-placeholder.webp",
+      "localPath": "hero-bg-placeholder.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 33404,
+      "sha256": "7906e556b4dea61a44fceb9c6770be0a19a99d5b198922e8592325bd12d478e5"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/hero-bg-4k.mp4",
+      "localPath": "hero-bg-4k.mp4",
+      "status": 200,
+      "contentType": "video/mp4",
+      "bytes": 19142399,
+      "sha256": "5f428d56d25b4bf47ea68481a4bee8a2f0ce98a21d462b25407dd63b3baf7d0a"
+    },
+    {
+      "url": "https://anma-portfolio-max0315.netlify.app/hero-bg-mobile.mp4",
+      "localPath": "hero-bg-mobile.mp4",
+      "status": 200,
+      "contentType": "video/mp4",
+      "bytes": 3963835,
+      "sha256": "5c95fd0b4e5d2dfd00a3aa4e665e88fc59e8771d410042c3cc38d370065fa098"
+    }
+  ],
+  "finishedAt": "2026-10-08T12:01:57.335Z",
+  "resourceCount": 44,
+  "downloadedCount": 44,
+  "failedCount": 0
+}

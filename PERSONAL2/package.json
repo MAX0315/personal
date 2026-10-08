@@ -1,0 +1,8 @@
+{
+  "name": "anma-portfolio-max0315-local",
+  "private": true,
+  "scripts": {
+    "sync": "node sync-site.mjs",
+    "preview": "node serve-local.mjs"
+  }
+}
