@@ -1,0 +1,2222 @@
+[
+  {
+    "local": "assets/houzun-songti.ttf",
+    "remote": "assets/houzun-songti.ttf"
+  },
+  {
+    "local": "assets/alibaba-puhuiti-regular.ttf",
+    "remote": "assets/alibaba-puhuiti-regular.ttf"
+  },
+  {
+    "local": "assets/alibaba-puhuiti-medium.ttf",
+    "remote": "assets/alibaba-puhuiti-medium.ttf"
+  },
+  {
+    "local": "assets/alibaba-puhuiti-semibold.ttf",
+    "remote": "assets/alibaba-puhuiti-semibold.ttf"
+  },
+  {
+    "local": "assets/anma-ip-icon.svg",
+    "remote": "assets/anma-ip-icon.svg"
+  },
+  {
+    "local": "assets/wechat-qr.png",
+    "remote": "assets/wechat-qr.png"
+  },
+  {
+    "local": "assets/videos/tvc/tvc-001.mp4",
+    "remote": "assets/videos/tvc/tvc-001.mp4"
+  },
+  {
+    "local": "assets/posters/tvc/tvc-001.jpg",
+    "remote": "assets/posters/tvc/tvc-001.jpg"
+  },
+  {
+    "local": "assets/videos/tvc/tvc-009.mp4",
+    "remote": "assets/videos/tvc/tvc-009.mp4"
+  },
+  {
+    "local": "assets/posters/tvc/tvc-009.jpg",
+    "remote": "assets/posters/tvc/tvc-009.jpg"
+  },
+  {
+    "local": "assets/videos/tvc/tvc-002.mp4",
+    "remote": "assets/videos/tvc/tvc-002.mp4"
+  },
+  {
+    "local": "assets/posters/tvc/tvc-002.jpg",
+    "remote": "assets/posters/tvc/tvc-002.jpg"
+  },
+  {
+    "local": "assets/videos/tvc/tvc-003.mp4",
+    "remote": "assets/videos/tvc/tvc-003.mp4"
+  },
+  {
+    "local": "assets/posters/tvc/tvc-003.jpg",
+    "remote": "assets/posters/tvc/tvc-003.jpg"
+  },
+  {
+    "local": "assets/videos/tvc/tvc-004.mp4",
+    "remote": "assets/videos/tvc/tvc-004.mp4"
+  },
+  {
+    "local": "assets/posters/tvc/tvc-004.jpg",
+    "remote": "assets/posters/tvc/tvc-004.jpg"
+  },
+  {
+    "local": "assets/videos/tvc/tvc-005.mp4",
+    "remote": "assets/videos/tvc/tvc-005.mp4"
+  },
+  {
+    "local": "assets/posters/tvc/tvc-005.jpg",
+    "remote": "assets/posters/tvc/tvc-005.jpg"
+  },
+  {
+    "local": "assets/videos/tvc/tvc-006.mp4",
+    "remote": "assets/videos/tvc/tvc-006.mp4"
+  },
+  {
+    "local": "assets/posters/tvc/tvc-006.jpg",
+    "remote": "assets/posters/tvc/tvc-006.jpg"
+  },
+  {
+    "local": "assets/videos/tvc/tvc-007.mp4",
+    "remote": "assets/videos/tvc/tvc-007.mp4"
+  },
+  {
+    "local": "assets/posters/tvc/tvc-007.jpg",
+    "remote": "assets/posters/tvc/tvc-007.jpg"
+  },
+  {
+    "local": "assets/videos/tvc/tvc-008.mp4",
+    "remote": "assets/videos/tvc/tvc-008.mp4"
+  },
+  {
+    "local": "assets/posters/tvc/tvc-008.jpg",
+    "remote": "assets/posters/tvc/tvc-008.jpg"
+  },
+  {
+    "local": "assets/videos/tvc/tvc-010.mp4",
+    "remote": "assets/videos/tvc/tvc-010.mp4"
+  },
+  {
+    "local": "assets/posters/tvc/tvc-010.jpg",
+    "remote": "assets/posters/tvc/tvc-010.jpg"
+  },
+  {
+    "local": "assets/videos/tvc/tvc-011.mp4",
+    "remote": "assets/videos/tvc/tvc-011.mp4"
+  },
+  {
+    "local": "assets/posters/tvc/tvc-011.jpg",
+    "remote": "assets/posters/tvc/tvc-011.jpg"
+  },
+  {
+    "local": "assets/videos/tvc/tvc-012.mp4",
+    "remote": "assets/videos/tvc/tvc-012.mp4"
+  },
+  {
+    "local": "assets/posters/tvc/tvc-012.jpg",
+    "remote": "assets/posters/tvc/tvc-012.jpg"
+  },
+  {
+    "local": "assets/videos/tvc/tvc-013.mp4",
+    "remote": "assets/videos/tvc/tvc-013.mp4"
+  },
+  {
+    "local": "assets/posters/tvc/tvc-013.jpg",
+    "remote": "assets/posters/tvc/tvc-013.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-001.mp4",
+    "remote": "assets/videos/ads/ads-001.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-001.jpg",
+    "remote": "assets/posters/ads/ads-001.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-002.mp4",
+    "remote": "assets/videos/ads/ads-002.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-002.jpg",
+    "remote": "assets/posters/ads/ads-002.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-003.mp4",
+    "remote": "assets/videos/ads/ads-003.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-003.jpg",
+    "remote": "assets/posters/ads/ads-003.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-004.mp4",
+    "remote": "assets/videos/ads/ads-004.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-004.jpg",
+    "remote": "assets/posters/ads/ads-004.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-005.mp4",
+    "remote": "assets/videos/ads/ads-005.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-005.jpg",
+    "remote": "assets/posters/ads/ads-005.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-006.mp4",
+    "remote": "assets/videos/ads/ads-006.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-006.jpg",
+    "remote": "assets/posters/ads/ads-006.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-007.mp4",
+    "remote": "assets/videos/ads/ads-007.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-007.jpg",
+    "remote": "assets/posters/ads/ads-007.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-008.mp4",
+    "remote": "assets/videos/ads/ads-008.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-008.jpg",
+    "remote": "assets/posters/ads/ads-008.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-009.mp4",
+    "remote": "assets/videos/ads/ads-009.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-009.jpg",
+    "remote": "assets/posters/ads/ads-009.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-010.mp4",
+    "remote": "assets/videos/ads/ads-010.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-010.jpg",
+    "remote": "assets/posters/ads/ads-010.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-011.mp4",
+    "remote": "assets/videos/ads/ads-011.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-011.jpg",
+    "remote": "assets/posters/ads/ads-011.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-012.mp4",
+    "remote": "assets/videos/ads/ads-012.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-012.jpg",
+    "remote": "assets/posters/ads/ads-012.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-013.mp4",
+    "remote": "assets/videos/ads/ads-013.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-013.jpg",
+    "remote": "assets/posters/ads/ads-013.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-014.mp4",
+    "remote": "assets/videos/ads/ads-014.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-014.jpg",
+    "remote": "assets/posters/ads/ads-014.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-015.mp4",
+    "remote": "assets/videos/ads/ads-015.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-015.jpg",
+    "remote": "assets/posters/ads/ads-015.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-016.mp4",
+    "remote": "assets/videos/ads/ads-016.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-016.jpg",
+    "remote": "assets/posters/ads/ads-016.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-017.mp4",
+    "remote": "assets/videos/ads/ads-017.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-017.jpg",
+    "remote": "assets/posters/ads/ads-017.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-018.mp4",
+    "remote": "assets/videos/ads/ads-018.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-018.jpg",
+    "remote": "assets/posters/ads/ads-018.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-019.mp4",
+    "remote": "assets/videos/ads/ads-019.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-019.jpg",
+    "remote": "assets/posters/ads/ads-019.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-020.mp4",
+    "remote": "assets/videos/ads/ads-020.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-020.jpg",
+    "remote": "assets/posters/ads/ads-020.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-021.mp4",
+    "remote": "assets/videos/ads/ads-021.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-021.jpg",
+    "remote": "assets/posters/ads/ads-021.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-022.mp4",
+    "remote": "assets/videos/ads/ads-022.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-022.jpg",
+    "remote": "assets/posters/ads/ads-022.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-023.mp4",
+    "remote": "assets/videos/ads/ads-023.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-023.jpg",
+    "remote": "assets/posters/ads/ads-023.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-024.mp4",
+    "remote": "assets/videos/ads/ads-024.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-024.jpg",
+    "remote": "assets/posters/ads/ads-024.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-025.mp4",
+    "remote": "assets/videos/ads/ads-025.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-025.jpg",
+    "remote": "assets/posters/ads/ads-025.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-026.mp4",
+    "remote": "assets/videos/ads/ads-026.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-026.jpg",
+    "remote": "assets/posters/ads/ads-026.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-027.mp4",
+    "remote": "assets/videos/ads/ads-027.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-027.jpg",
+    "remote": "assets/posters/ads/ads-027.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-028.mp4",
+    "remote": "assets/videos/ads/ads-028.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-028.jpg",
+    "remote": "assets/posters/ads/ads-028.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-029.mp4",
+    "remote": "assets/videos/ads/ads-029.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-029.jpg",
+    "remote": "assets/posters/ads/ads-029.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-030.mp4",
+    "remote": "assets/videos/ads/ads-030.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-030.jpg",
+    "remote": "assets/posters/ads/ads-030.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-031.mp4",
+    "remote": "assets/videos/ads/ads-031.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-031.jpg",
+    "remote": "assets/posters/ads/ads-031.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-032.mp4",
+    "remote": "assets/videos/ads/ads-032.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-032.jpg",
+    "remote": "assets/posters/ads/ads-032.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-033.mp4",
+    "remote": "assets/videos/ads/ads-033.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-033.jpg",
+    "remote": "assets/posters/ads/ads-033.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-034.mp4",
+    "remote": "assets/videos/ads/ads-034.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-034.jpg",
+    "remote": "assets/posters/ads/ads-034.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-035.mp4",
+    "remote": "assets/videos/ads/ads-035.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-035.jpg",
+    "remote": "assets/posters/ads/ads-035.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-036.mp4",
+    "remote": "assets/videos/ads/ads-036.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-036.jpg",
+    "remote": "assets/posters/ads/ads-036.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-037.mp4",
+    "remote": "assets/videos/ads/ads-037.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-037.jpg",
+    "remote": "assets/posters/ads/ads-037.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-038.mp4",
+    "remote": "assets/videos/ads/ads-038.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-038.jpg",
+    "remote": "assets/posters/ads/ads-038.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-039.mp4",
+    "remote": "assets/videos/ads/ads-039.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-039.jpg",
+    "remote": "assets/posters/ads/ads-039.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-040.mp4",
+    "remote": "assets/videos/ads/ads-040.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-040.jpg",
+    "remote": "assets/posters/ads/ads-040.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-041.mp4",
+    "remote": "assets/videos/ads/ads-041.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-041.jpg",
+    "remote": "assets/posters/ads/ads-041.jpg"
+  },
+  {
+    "local": "assets/videos/ads/ads-042.mp4",
+    "remote": "assets/videos/ads/ads-042.mp4"
+  },
+  {
+    "local": "assets/posters/ads/ads-042.jpg",
+    "remote": "assets/posters/ads/ads-042.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-001.mp4",
+    "remote": "assets/videos/feed/feed-p-001.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-001.jpg",
+    "remote": "assets/posters/feed/feed-p-001.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-002.mp4",
+    "remote": "assets/videos/feed/feed-p-002.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-002.jpg",
+    "remote": "assets/posters/feed/feed-p-002.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-003.mp4",
+    "remote": "assets/videos/feed/feed-p-003.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-003.jpg",
+    "remote": "assets/posters/feed/feed-p-003.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-004.mp4",
+    "remote": "assets/videos/feed/feed-p-004.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-004.jpg",
+    "remote": "assets/posters/feed/feed-p-004.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-005.mp4",
+    "remote": "assets/videos/feed/feed-p-005.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-005.jpg",
+    "remote": "assets/posters/feed/feed-p-005.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-006.mp4",
+    "remote": "assets/videos/feed/feed-p-006.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-006.jpg",
+    "remote": "assets/posters/feed/feed-p-006.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-007.mp4",
+    "remote": "assets/videos/feed/feed-p-007.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-007.jpg",
+    "remote": "assets/posters/feed/feed-p-007.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-008.mp4",
+    "remote": "assets/videos/feed/feed-p-008.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-008.jpg",
+    "remote": "assets/posters/feed/feed-p-008.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-009.mp4",
+    "remote": "assets/videos/feed/feed-p-009.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-009.jpg",
+    "remote": "assets/posters/feed/feed-p-009.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-010.mp4",
+    "remote": "assets/videos/feed/feed-p-010.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-010.jpg",
+    "remote": "assets/posters/feed/feed-p-010.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-011.mp4",
+    "remote": "assets/videos/feed/feed-p-011.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-011.jpg",
+    "remote": "assets/posters/feed/feed-p-011.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-012.mp4",
+    "remote": "assets/videos/feed/feed-p-012.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-012.jpg",
+    "remote": "assets/posters/feed/feed-p-012.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-013.mp4",
+    "remote": "assets/videos/feed/feed-p-013.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-013.jpg",
+    "remote": "assets/posters/feed/feed-p-013.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-014.mp4",
+    "remote": "assets/videos/feed/feed-p-014.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-014.jpg",
+    "remote": "assets/posters/feed/feed-p-014.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-015.mp4",
+    "remote": "assets/videos/feed/feed-p-015.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-015.jpg",
+    "remote": "assets/posters/feed/feed-p-015.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-016.mp4",
+    "remote": "assets/videos/feed/feed-p-016.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-016.jpg",
+    "remote": "assets/posters/feed/feed-p-016.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-017.mp4",
+    "remote": "assets/videos/feed/feed-p-017.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-017.jpg",
+    "remote": "assets/posters/feed/feed-p-017.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-018.mp4",
+    "remote": "assets/videos/feed/feed-p-018.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-018.jpg",
+    "remote": "assets/posters/feed/feed-p-018.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-p-019.mp4",
+    "remote": "assets/videos/feed/feed-p-019.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-p-019.jpg",
+    "remote": "assets/posters/feed/feed-p-019.jpg"
+  },
+  {
+    "local": "assets/videos/feed/feed-l-001.mp4",
+    "remote": "assets/videos/feed/feed-l-001.mp4"
+  },
+  {
+    "local": "assets/posters/feed/feed-l-001.jpg",
+    "remote": "assets/posters/feed/feed-l-001.jpg"
+  },
+  {
+    "local": "assets/design/operation-25/op25-001.png",
+    "remote": "assets/design/operation-25/op25-001.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-001.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-001.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-002.png",
+    "remote": "assets/design/operation-25/op25-002.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-002.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-002.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-003.png",
+    "remote": "assets/design/operation-25/op25-003.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-003.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-003.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-004.png",
+    "remote": "assets/design/operation-25/op25-004.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-004.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-004.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-005.png",
+    "remote": "assets/design/operation-25/op25-005.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-005.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-005.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-006.png",
+    "remote": "assets/design/operation-25/op25-006.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-006.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-006.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-007.png",
+    "remote": "assets/design/operation-25/op25-007.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-007.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-007.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-008.png",
+    "remote": "assets/design/operation-25/op25-008.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-008.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-008.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-009.png",
+    "remote": "assets/design/operation-25/op25-009.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-009.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-009.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-010.png",
+    "remote": "assets/design/operation-25/op25-010.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-010.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-010.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-011.png",
+    "remote": "assets/design/operation-25/op25-011.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-011.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-011.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-012.png",
+    "remote": "assets/design/operation-25/op25-012.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-012.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-012.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-013.png",
+    "remote": "assets/design/operation-25/op25-013.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-013.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-013.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-014.png",
+    "remote": "assets/design/operation-25/op25-014.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-014.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-014.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-015.png",
+    "remote": "assets/design/operation-25/op25-015.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-015.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-015.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-016.png",
+    "remote": "assets/design/operation-25/op25-016.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-016.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-016.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-017.png",
+    "remote": "assets/design/operation-25/op25-017.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-017.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-017.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-018.png",
+    "remote": "assets/design/operation-25/op25-018.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-018.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-018.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-019.png",
+    "remote": "assets/design/operation-25/op25-019.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-019.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-019.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-020.png",
+    "remote": "assets/design/operation-25/op25-020.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-020.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-020.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-021.png",
+    "remote": "assets/design/operation-25/op25-021.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-021.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-021.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-022.png",
+    "remote": "assets/design/operation-25/op25-022.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-022.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-022.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-023.png",
+    "remote": "assets/design/operation-25/op25-023.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-023.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-023.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-024.png",
+    "remote": "assets/design/operation-25/op25-024.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-024.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-024.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-025.png",
+    "remote": "assets/design/operation-25/op25-025.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-025.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-025.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-026.png",
+    "remote": "assets/design/operation-25/op25-026.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-026.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-026.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-027.png",
+    "remote": "assets/design/operation-25/op25-027.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-027.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-027.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-028.png",
+    "remote": "assets/design/operation-25/op25-028.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-028.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-028.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-029.png",
+    "remote": "assets/design/operation-25/op25-029.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-029.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-029.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-030.png",
+    "remote": "assets/design/operation-25/op25-030.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-030.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-030.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-031.png",
+    "remote": "assets/design/operation-25/op25-031.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-031.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-031.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-032.png",
+    "remote": "assets/design/operation-25/op25-032.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-032.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-032.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-033.png",
+    "remote": "assets/design/operation-25/op25-033.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-033.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-033.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-034.png",
+    "remote": "assets/design/operation-25/op25-034.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-034.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-034.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-035.png",
+    "remote": "assets/design/operation-25/op25-035.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-035.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-035.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-036.png",
+    "remote": "assets/design/operation-25/op25-036.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-036.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-036.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-037.png",
+    "remote": "assets/design/operation-25/op25-037.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-037.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-037.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-038.png",
+    "remote": "assets/design/operation-25/op25-038.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-038.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-038.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-039.png",
+    "remote": "assets/design/operation-25/op25-039.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-039.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-039.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-040.png",
+    "remote": "assets/design/operation-25/op25-040.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-040.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-040.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-041.png",
+    "remote": "assets/design/operation-25/op25-041.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-041.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-041.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-042.png",
+    "remote": "assets/design/operation-25/op25-042.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-042.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-042.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-043.png",
+    "remote": "assets/design/operation-25/op25-043.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-043.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-043.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-044.png",
+    "remote": "assets/design/operation-25/op25-044.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-044.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-044.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-045.png",
+    "remote": "assets/design/operation-25/op25-045.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-045.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-045.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-046.png",
+    "remote": "assets/design/operation-25/op25-046.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-046.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-046.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-047.png",
+    "remote": "assets/design/operation-25/op25-047.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-047.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-047.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-048.png",
+    "remote": "assets/design/operation-25/op25-048.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-048.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-048.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-049.png",
+    "remote": "assets/design/operation-25/op25-049.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-049.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-049.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-050.png",
+    "remote": "assets/design/operation-25/op25-050.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-050.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-050.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-051.png",
+    "remote": "assets/design/operation-25/op25-051.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-051.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-051.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-052.png",
+    "remote": "assets/design/operation-25/op25-052.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-052.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-052.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-053.png",
+    "remote": "assets/design/operation-25/op25-053.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-053.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-053.webp"
+  },
+  {
+    "local": "assets/design/operation-25/op25-054.png",
+    "remote": "assets/design/operation-25/op25-054.png"
+  },
+  {
+    "local": "assets/design-thumbs/operation-25/op25-054.webp",
+    "remote": "assets/design-thumbs/operation-25/op25-054.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-001.png",
+    "remote": "assets/design/ip-series/ip-001.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-001.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-001.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-002.png",
+    "remote": "assets/design/ip-series/ip-002.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-002.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-002.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-003.png",
+    "remote": "assets/design/ip-series/ip-003.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-003.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-003.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-004.png",
+    "remote": "assets/design/ip-series/ip-004.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-004.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-004.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-005.png",
+    "remote": "assets/design/ip-series/ip-005.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-005.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-005.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-006.png",
+    "remote": "assets/design/ip-series/ip-006.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-006.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-006.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-007.png",
+    "remote": "assets/design/ip-series/ip-007.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-007.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-007.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-008.png",
+    "remote": "assets/design/ip-series/ip-008.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-008.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-008.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-009.png",
+    "remote": "assets/design/ip-series/ip-009.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-009.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-009.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-010.png",
+    "remote": "assets/design/ip-series/ip-010.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-010.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-010.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-011.png",
+    "remote": "assets/design/ip-series/ip-011.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-011.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-011.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-012.png",
+    "remote": "assets/design/ip-series/ip-012.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-012.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-012.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-013.png",
+    "remote": "assets/design/ip-series/ip-013.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-013.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-013.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-014.png",
+    "remote": "assets/design/ip-series/ip-014.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-014.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-014.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-015.png",
+    "remote": "assets/design/ip-series/ip-015.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-015.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-015.webp"
+  },
+  {
+    "local": "assets/design/ip-series/ip-016.png",
+    "remote": "assets/design/ip-series/ip-016.png"
+  },
+  {
+    "local": "assets/design-thumbs/ip-series/ip-016.webp",
+    "remote": "assets/design-thumbs/ip-series/ip-016.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-001.png",
+    "remote": "assets/design/commercial-posters/commercial-h-001.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-001.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-001.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-002.png",
+    "remote": "assets/design/commercial-posters/commercial-h-002.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-002.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-002.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-003.png",
+    "remote": "assets/design/commercial-posters/commercial-h-003.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-003.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-003.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-004.png",
+    "remote": "assets/design/commercial-posters/commercial-h-004.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-004.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-004.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-005.png",
+    "remote": "assets/design/commercial-posters/commercial-h-005.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-005.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-005.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-006.png",
+    "remote": "assets/design/commercial-posters/commercial-h-006.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-006.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-006.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-007.png",
+    "remote": "assets/design/commercial-posters/commercial-h-007.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-007.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-007.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-008.png",
+    "remote": "assets/design/commercial-posters/commercial-h-008.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-008.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-008.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-009.png",
+    "remote": "assets/design/commercial-posters/commercial-h-009.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-009.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-009.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-010.png",
+    "remote": "assets/design/commercial-posters/commercial-h-010.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-010.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-010.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-011.png",
+    "remote": "assets/design/commercial-posters/commercial-h-011.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-011.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-011.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-012.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-012.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-012.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-012.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-013.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-013.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-013.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-013.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-014.png",
+    "remote": "assets/design/commercial-posters/commercial-h-014.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-014.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-014.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-015.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-015.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-015.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-015.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-016.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-016.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-016.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-016.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-017.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-017.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-017.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-017.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-018.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-018.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-018.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-018.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-019.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-019.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-019.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-019.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-020.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-020.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-020.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-020.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-021.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-021.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-021.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-021.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-022.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-022.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-022.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-022.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-023.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-023.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-023.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-023.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-024.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-024.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-024.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-024.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-025.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-025.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-025.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-025.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-026.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-026.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-026.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-026.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-027.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-027.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-027.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-027.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-028.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-028.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-028.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-028.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-029.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-029.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-029.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-029.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-030.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-030.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-030.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-030.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-031.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-031.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-031.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-031.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-032.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-032.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-032.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-032.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-033.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-033.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-033.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-033.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-034.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-034.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-034.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-034.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-035.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-035.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-035.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-035.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-036.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-036.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-036.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-036.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-037.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-037.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-037.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-037.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-038.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-038.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-038.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-038.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-039.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-039.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-039.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-039.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-040.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-040.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-040.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-040.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-041.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-041.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-041.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-041.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-042.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-042.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-042.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-042.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-043.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-043.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-043.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-043.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-044.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-044.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-044.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-044.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-045.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-045.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-045.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-045.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-046.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-046.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-046.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-046.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-047.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-047.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-047.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-047.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-048.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-048.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-048.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-048.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-049.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-049.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-049.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-049.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-050.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-050.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-050.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-050.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-051.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-051.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-051.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-051.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-052.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-052.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-052.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-052.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-053.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-053.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-053.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-053.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-054.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-054.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-054.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-054.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-055.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-055.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-055.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-055.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-056.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-056.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-056.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-056.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-057.png",
+    "remote": "assets/design/commercial-posters/commercial-h-057.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-057.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-057.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-058.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-058.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-058.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-058.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-059.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-059.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-059.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-059.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-060.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-060.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-060.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-060.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-061.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-061.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-061.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-061.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-062.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-062.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-062.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-062.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-063.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-063.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-063.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-063.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-064.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-064.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-064.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-064.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-065.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-065.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-065.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-065.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-066.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-066.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-066.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-066.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-067.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-067.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-067.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-067.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-068.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-068.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-068.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-068.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-069.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-069.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-069.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-069.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-070.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-070.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-070.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-070.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-071.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-071.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-071.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-071.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-072.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-072.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-072.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-072.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-073.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-073.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-073.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-073.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-074.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-074.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-074.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-074.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-075.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-075.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-075.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-075.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-076.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-076.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-076.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-076.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-077.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-077.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-077.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-077.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-078.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-078.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-078.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-078.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-079.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-079.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-079.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-079.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-080.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-080.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-080.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-080.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-081.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-081.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-081.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-081.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-082.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-082.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-082.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-082.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-083.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-083.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-083.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-083.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-084.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-084.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-084.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-084.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-085.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-085.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-085.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-085.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-086.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-086.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-086.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-086.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-087.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-087.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-087.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-087.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-088.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-088.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-088.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-088.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-089.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-089.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-089.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-089.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-090.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-090.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-090.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-090.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-091.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-091.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-091.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-091.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-092.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-092.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-092.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-092.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-093.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-093.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-093.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-093.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-094.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-094.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-094.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-094.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-095.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-095.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-095.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-095.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-096.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-096.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-096.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-096.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-097.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-097.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-097.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-097.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-098.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-098.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-098.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-098.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-099.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-099.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-099.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-099.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-100.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-100.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-100.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-100.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-101.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-101.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-101.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-101.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-102.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-102.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-102.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-102.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-103.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-103.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-103.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-103.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-104.gif",
+    "remote": "assets/design/commercial-posters/commercial-h-104.gif"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-104.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-104.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-105.gif",
+    "remote": "assets/design/commercial-posters/commercial-h-105.gif"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-105.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-105.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-106.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-106.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-106.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-106.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-107.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-107.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-107.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-107.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-108.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-108.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-108.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-108.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-109.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-109.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-109.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-109.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-110.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-110.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-110.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-110.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-111.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-111.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-111.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-111.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-112.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-112.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-112.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-112.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-113.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-113.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-113.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-113.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-114.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-114.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-114.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-114.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-115.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-115.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-115.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-115.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-116.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-116.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-116.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-116.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-h-117.jpg",
+    "remote": "assets/design/commercial-posters/commercial-h-117.jpg"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-h-117.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-h-117.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-v-001.png",
+    "remote": "assets/design/commercial-posters/commercial-v-001.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-v-001.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-v-001.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-v-002.png",
+    "remote": "assets/design/commercial-posters/commercial-v-002.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-v-002.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-v-002.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-v-003.png",
+    "remote": "assets/design/commercial-posters/commercial-v-003.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-v-003.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-v-003.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-v-004.png",
+    "remote": "assets/design/commercial-posters/commercial-v-004.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-v-004.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-v-004.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-v-005.png",
+    "remote": "assets/design/commercial-posters/commercial-v-005.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-v-005.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-v-005.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-v-006.png",
+    "remote": "assets/design/commercial-posters/commercial-v-006.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-v-006.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-v-006.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-v-007.png",
+    "remote": "assets/design/commercial-posters/commercial-v-007.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-v-007.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-v-007.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-v-008.png",
+    "remote": "assets/design/commercial-posters/commercial-v-008.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-v-008.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-v-008.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-v-009.png",
+    "remote": "assets/design/commercial-posters/commercial-v-009.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-v-009.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-v-009.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-v-010.png",
+    "remote": "assets/design/commercial-posters/commercial-v-010.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-v-010.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-v-010.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-v-011.png",
+    "remote": "assets/design/commercial-posters/commercial-v-011.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-v-011.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-v-011.webp"
+  },
+  {
+    "local": "assets/design/commercial-posters/commercial-v-012.png",
+    "remote": "assets/design/commercial-posters/commercial-v-012.png"
+  },
+  {
+    "local": "assets/design-thumbs/commercial-posters/commercial-v-012.webp",
+    "remote": "assets/design-thumbs/commercial-posters/commercial-v-012.webp"
+  },
+  {
+    "local": "assets/ambient/hf_20260418_080021_d598092b-c4c2-4e53-8e46-94cf9064cd50.mp4",
+    "remote": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_080021_d598092b-c4c2-4e53-8e46-94cf9064cd50.mp4"
+  }
+]

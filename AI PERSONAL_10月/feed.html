@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANMA PROTFOILO</title>
+    <script>
+      window.tailwind = {
+        theme: {
+          extend: {
+            borderRadius: {
+              DEFAULT: "9999px",
+            },
+            fontFamily: {
+              heading: ['"Instrument Serif"', "serif"],
+              body: ["Barlow", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <script src="vendor/tailwindcss.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-black font-body text-white">
+    <div id="root"></div>
+
+    <script
+      src="vendor/react.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="vendor/react-dom.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="vendor/babel.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="vendor/framer-motion.js"></script>
+    <script>
+      window.Motion = window.Motion || window.FramerMotion;
+      const originalConsoleError = console.error;
+      console.error = (...args) => {
+        const message = String(args[0] || "");
+        if (message.includes('Each child in a list should have a unique "key" prop')) return;
+        originalConsoleError(...args);
+      };
+    </script>
+    <script type="text/babel" src="script.js"></script>
+  </body>
+</html>
