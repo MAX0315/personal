@@ -2350,7 +2350,7 @@ function Home() {
     <main className="home-shell">
       <video
         className="ambient-video"
-        src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_080021_d598092b-c4c2-4e53-8e46-94cf9064cd50.mp4"
+        src="assets/ambient/hf_20260418_080021_d598092b-c4c2-4e53-8e46-94cf9064cd50.mp4"
         autoPlay
         muted
         playsInline
