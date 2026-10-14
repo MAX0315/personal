@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>原视频下载助手 v1.8.2</title><link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<main class="shell">
+<div class="author-mark" aria-label="作者品牌标识">
+  <a class="brand-link" href="https://zhanku.zcool.com.cn/" target="_blank" rel="noopener noreferrer" aria-label="黯马AIGC，前往站酷支持作者">
+    <img class="author-avatar" src="icons/avatar-128.png" width="36" height="36" alt="黯马AIGC头像">
+    <span class="author-info"><strong>黯马AIGC</strong><span class="author-caption">作者标识</span></span>
+  </a>
+  <a class="support-link" href="https://zhanku.zcool.com.cn/" target="_blank" rel="noopener noreferrer">支持作者 <span aria-hidden="true">↗</span></a>
+</div>
+<header class="masthead"><div class="eyebrow">MEDIA UTILITY · MV3 · 1.8.2</div><h1>原媒体<span>下载助手</span></h1><p class="subhead">浏览器内解析 · 原图保存 · MP3</p></header>
+<section class="input-card" aria-labelledby="url-label">
+<label id="url-label" for="urlInput">视频 / 图文链接或平台分享文案</label>
+<div class="input-row"><input id="urlInput" type="text" placeholder="视频号 / 抖音 / 小红书 / B 站链接" autocomplete="off" spellcheck="false"><button id="analyzeBtn" class="primary" type="button">解析</button></div>
+<div class="quick-row"><button id="currentBtn" class="text-btn" type="button">使用当前页面</button><span class="hint">粘贴分享链接，在插件内预览与下载</span></div>
+</section>
+<section id="status" class="status" role="status" aria-live="polite"><span class="status-dot"></span><span id="statusText">等待输入链接</span></section>
+<button id="openPageBtn" class="secondary open-page hidden" type="button">打开目标作品页面</button>
+<section id="channelsAccount" class="channels-account" aria-labelledby="channelsAccountTitle"><div class="account-topline"><strong id="channelsAccountTitle">视频号 · 腾讯网页账号</strong><span id="channelsAccountBadge" class="account-badge">首次登录</span></div><p>首次使用，在 Chrome 中正常登录腾讯元宝；登录后回到此侧栏解析、预览和下载。</p><div class="account-actions"><button id="channelsLoginBtn" class="secondary" type="button">登录腾讯账号</button><button id="channelsStatusBtn" class="secondary" type="button">检查浏览器状态</button></div><button id="channelsRetryBtn" class="text-btn account-retry" type="button">重新解析当前链接</button><p id="channelsAccountState" class="account-state" role="status" aria-live="polite">解析视频号时，会将当前作品链接发送到腾讯元宝，使用你的正常网页登录会话读取作品。</p></section>
+<section id="result" class="result-card hidden" aria-labelledby="resultTitle">
+<div class="result-topline"><span class="chip" id="sourceChip">SOURCE</span><span id="resultTitle">已找到媒体源</span></div>
+<p id="videoTitle" class="video-title"></p>
+<div class="meta-grid">
+<div><span class="meta-label">作品 ID</span><strong id="videoId">—</strong></div>
+<div><span id="durationLabel" class="meta-label">视频时长</span><strong id="duration">—</strong></div>
+</div>
+<div id="previewWrap" class="preview-wrap hidden"><video id="preview" controls playsinline preload="auto" aria-label="视频预览，点击播放"></video></div>
+<div id="imagePreviewWrap" class="preview-wrap image-preview-wrap hidden"><img id="imagePreview" alt="图文图片预览"></div>
+<button id="previewBtn" class="secondary preview-btn hidden" type="button">重新加载预览</button>
+<label for="qualitySelect">可用播放源</label><select id="qualitySelect"></select>
+<div class="meta-grid file-meta"><div><span class="meta-label">文件名</span><strong id="fileName">—</strong></div><div><span class="meta-label">来源域名</span><strong id="sourceUrl">—</strong></div></div>
+<div class="actions"><button id="downloadBtn" class="primary action-btn" type="button" disabled>下载视频</button><button id="downloadImagesBtn" class="primary action-btn image-btn hidden" type="button" disabled>下载全部图片</button><button id="audioBtn" class="primary action-btn audio-btn" type="button" disabled>下载 MP3 音频</button></div>
+<button id="frameBtn" class="text-btn frame-btn" type="button" disabled>下载首帧（需加载预览）</button>
+<p id="resultNote" class="note"></p>
+</section>
+<p id="downloadState" class="note download-state" role="status" aria-live="polite"></p>
+<section id="audioTask" class="audio-task hidden" aria-live="polite"><div class="audio-task-top"><strong>MP3 音频</strong><button id="cancelAudioBtn" class="text-btn" type="button">取消</button></div><p id="audioState" class="note"></p><progress id="audioProgress" max="100" value="0"></progress><p class="note">在浏览器内转换，关闭侧栏也会继续。仅保存 MP3 文件。</p></section>
+<section class="limits"><div class="limit-title">使用提示</div><p>视频号通过腾讯元宝的正常网页会话解析，账号登录、链接读取权限和作品可用状态会影响结果。仅显示二维码、无法被腾讯网页读取的作品，可能无法解析。抖音图文可逐张或整组保存；抖音、小红书和 B 站视频支持链接解析。MP3 在浏览器内转换，源文件限 200 MB。仅保存你有权使用的内容；直播、平台禁止访问的内容和未合并分片暂不支持。</p></section>
+<footer>v1.8.2 · 黯马AIGC · 浏览器内操作</footer>
+</main>
+<script src="popup.js"></script>
+</body></html>

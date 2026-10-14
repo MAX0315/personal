@@ -1,0 +1,1 @@
+window.ANMA_WEB_VERSION="2.1.0";

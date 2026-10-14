@@ -1,0 +1,77 @@
+{
+  "manifest_version": 3,
+  "name": "原视频下载助手",
+  "version": "1.8.2",
+  "minimum_chrome_version": "116",
+  "description": "黯马AIGC · 在 Chrome 侧栏解析、预览和下载视频号、抖音视频与图文原图、小红书、哔哩哔哩及 MP3。",
+  "icons": {
+    "16": "icons/avatar-16.png",
+    "32": "icons/avatar-32.png",
+    "48": "icons/avatar-48.png",
+    "128": "icons/avatar-128.png"
+  },
+  "permissions": [
+    "downloads",
+    "activeTab",
+    "tabs",
+    "storage",
+    "scripting",
+    "offscreen",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "黯马AIGC · 原媒体下载助手 v1.8.2",
+    "default_icon": {
+      "16": "icons/avatar-16.png",
+      "24": "icons/avatar-24.png",
+      "32": "icons/avatar-32.png",
+      "48": "icons/avatar-48.png"
+    }
+  },
+  "side_panel": {
+    "default_path": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'; worker-src 'self'"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://channels.weixin.qq.com/finder-preview/pages/*"
+      ],
+      "js": [
+        "channels.js",
+        "channels-hook.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": [
+        "https://*.douyin.com/*",
+        "https://douyin.com/*",
+        "https://www.iesdouyin.com/*",
+        "https://iesdouyin.com/*"
+      ],
+      "js": [
+        "extractor.js",
+        "page-hook.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkwvtyrnBsOpxvJEyzPYvevI7wrHCHru0skMryT9FvvW7Ot33z/KcLGn3jmMIB56h9B/3aXZ/hGt4oSSzjnWTBsWXplde8+z8srSyaiIWip6FQ1/nlaxJA/SAtxhGVaJkG78cYn1A623xDcbQFV46sZgvqlTFOGAd6rFKAEb5n3xPQHU/1Q8e1IksDMm+YHCLTuV9SPl+w/3y+8XLu1x+UKB9d2eSnqLguKIFyNQIBbn0CZYNmeOLxf5rKxIK4ZPP3zxk7V5yWSAALpDfuPANivpDyIO/4SyJiT1c+lje5kF673zcaJI0EOScJy63eQSmfPdjvQPdcYRaFU6e2Y31uwIDAQAB",
+  "externally_connectable": {
+    "matches": [
+      "https://anma-media-tool-20261012.netlify.app/*"
+    ]
+  }
+}

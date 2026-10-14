@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=fdbf9d29-b84a-47a2-8ad9-229723b56ca7
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="黯马 AIGC 原视频下载助手网页版">
+  <title>黯马 AIGC · 原视频下载助手</title>
+  <link rel="icon" href="/assets/avatar.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/assets/lucide.js"></script>
+  <script defer src="/assets/jszip.js"></script>
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#share-input">跳至分享链接</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="author-mark" aria-label="作者品牌标识">
+        <a class="brand" href="https://zhanku.zcool.com.cn/" target="_blank" rel="noopener noreferrer" aria-label="黯马AIGC，前往站酷支持作者">
+          <img src="/assets/avatar.png" alt="黯马" width="44" height="44">
+          <span class="brand-copy"><strong>黯马AIGC</strong><span>作者标识</span></span>
+        </a>
+        <a class="support-link" href="https://zhanku.zcool.com.cn/" target="_blank" rel="noopener noreferrer">支持作者<i data-lucide="external-link" aria-hidden="true"></i></a>
+      </div>
+      <div class="header-actions">
+        <span class="local-badge"><i data-lucide="globe" aria-hidden="true"></i>网页版 <span id="version">2.5.3-web</span></span>
+        <span id="service-state" class="service-state" role="status"><span class="status-dot"></span><span>连接中</span></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="workspace">
+    <div class="workspace-heading">
+      <h1>内容提取</h1>
+      <div class="platforms" aria-label="支持的平台"><span>抖音</span><span>微信视频号</span><span>小红书</span><span>B站</span><span>YouTube</span></div>
+    </div>
+
+    <div class="workspace-grid">
+      <section class="input-section" aria-labelledby="input-heading">
+        <div class="section-heading"><h2 id="input-heading">分享链接</h2><button id="clear-input" class="icon-button" type="button" title="清空链接" aria-label="清空链接"><i data-lucide="eraser" aria-hidden="true"></i></button></div>
+        <form id="extract-form">
+          <label class="sr-only" for="share-input">视频或图文分享链接</label>
+          <div class="input-wrap"><textarea id="share-input" rows="5" spellcheck="false" placeholder="粘贴视频或图文分享链接" required>https://weixin.qq.com/sph/AJECiyCANW</textarea><button id="paste-input" class="icon-button paste-button" type="button" title="粘贴" aria-label="粘贴"><i data-lucide="clipboard-paste" aria-hidden="true"></i></button></div>
+          <div class="input-meta"><span id="detected-platform">微信视频号</span><button id="sample-input" class="text-button" type="button"><i data-lucide="link" aria-hidden="true"></i>视频号示例</button></div>
+          <div id="input-error" class="inline-error" role="alert" hidden></div>
+          <button id="extract-button" class="primary-button extract-button" type="submit"><i data-lucide="arrow-down-to-line" aria-hidden="true"></i><span>开始提取</span><i data-lucide="arrow-right" class="end-icon" aria-hidden="true"></i></button>
+          <div class="job-actions" id="job-actions" hidden><button id="cancel-button" class="secondary-button" type="button"><i data-lucide="square" aria-hidden="true"></i><span id="cancel-label">停止任务</span></button></div>
+        </form>
+
+        <div class="browser-section">
+          <div class="browser-heading"><div><i data-lucide="scan-line" aria-hidden="true"></i><h2 id="browser-heading-label">腾讯登录</h2></div><div class="browser-controls"><button id="open-browser" class="text-button" type="button" disabled>查看<i data-lucide="scan-qr-code" aria-hidden="true"></i></button><button id="logout-session" class="icon-button" type="button" title="退出登录" aria-label="退出登录" hidden><i data-lucide="log-out" aria-hidden="true"></i></button></div></div>
+          <div class="browser-meta"><span id="browser-label">腾讯官方登录</span><span id="browser-state" class="neutral-pill">未开始</span></div>
+          <div id="browser-message" class="small-message" role="status" hidden></div>
+          <details class="environment-details"><summary>运行环境<i data-lucide="chevron-down" aria-hidden="true"></i></summary><dl id="environment"><div><dt>服务地址</dt><dd id="service-address"></dd></div><div><dt>云端浏览器</dt><dd id="browser-detail">检查中</dd></div><div><dt>版本</dt><dd id="environment-version">2.5.3-web</dd></div></dl></details>
+        </div>
+
+        <section id="login-section" class="login-section" aria-labelledby="login-heading" hidden>
+          <div class="login-heading"><i data-lucide="scan-line" aria-hidden="true"></i><h3 id="login-heading">等待腾讯登录</h3></div>
+          <p id="login-message">请使用微信扫描腾讯官方二维码登录。</p>
+          <div class="browser-shot-wrap"><img id="browser-shot" alt="本次任务的腾讯官方登录画面" role="button" tabindex="0" title="放大二维码" aria-label="放大官方登录二维码" aria-haspopup="dialog" aria-controls="qr-dialog" hidden><div id="shot-placeholder">正在读取官方登录画面</div></div>
+          <div class="login-actions"><button id="login-browser" class="secondary-button" type="button" aria-haspopup="dialog" aria-controls="qr-dialog"><i data-lucide="maximize" aria-hidden="true"></i>放大二维码</button><button id="refresh-qr" class="secondary-button" type="button"><i data-lucide="refresh-cw" aria-hidden="true"></i>刷新二维码</button></div>
+        </section>
+      </section>
+
+      <div class="output-column">
+        <section class="progress-section" aria-labelledby="progress-heading">
+          <div class="section-heading"><h2 id="progress-heading">提取进度</h2><span class="state-badge" id="job-state">待开始</span></div>
+          <ol class="stages" id="stages" aria-label="提取步骤">
+            <li data-stage="input"><span class="stage-marker"><span>1</span></span><span class="stage-label">解析链接</span></li>
+            <li data-stage="browser"><span class="stage-marker"><span>2</span></span><span class="stage-label">打开页面</span></li>
+            <li data-stage="session"><span class="stage-marker"><span>3</span></span><span class="stage-label">确认会话</span></li>
+            <li data-stage="source"><span class="stage-marker"><span>4</span></span><span class="stage-label">获取内容</span></li>
+            <li data-stage="transfer"><span class="stage-marker"><span>5</span></span><span class="stage-label">下载文件</span></li>
+            <li data-stage="verify"><span class="stage-marker"><span>6</span></span><span class="stage-label">验证文件</span></li>
+          </ol>
+          <div class="progress-summary"><div><strong id="current-message" aria-live="polite">等待开始提取</strong><span id="progress-detail">尚未创建任务</span></div><time id="elapsed-time">00:00</time></div>
+          <div id="transfer-section" class="transfer-section" hidden><div class="transfer-label"><span id="transfer-title">正在下载</span><span id="transfer-bytes">0 B</span></div><progress id="transfer-progress" aria-label="文件下载进度"></progress></div>
+          <div id="task-error" class="task-error" role="alert" hidden><i data-lucide="circle-alert" aria-hidden="true"></i><div><strong>提取未完成</strong><p id="task-error-message"></p></div></div>
+          <div id="retry-actions" class="retry-actions" hidden><button id="retry-button" class="secondary-button" type="button"><i data-lucide="rotate-cw" aria-hidden="true"></i>重新提取</button></div>
+        </section>
+
+        <section id="result-section" class="result-section" aria-labelledby="result-heading" hidden>
+          <div class="section-heading"><h2 id="result-heading">提取结果</h2><span id="verified-badge" class="verified-badge"><i data-lucide="circle-check" aria-hidden="true"></i>文件已验证</span></div>
+          <div class="result-heading"><h3 id="video-title"></h3><span id="result-platform" class="neutral-pill"></span></div>
+          <div id="video-result">
+          <div id="candidate-control" class="candidate-control" hidden><label for="candidate-select">视频文件</label><select id="candidate-select"></select></div>
+          <div class="video-wrap"><video id="video-preview" controls preload="metadata" playsinline aria-label="已提取的视频预览"></video><div id="preview-fallback" class="preview-fallback" hidden><i data-lucide="film" aria-hidden="true"></i><p>当前浏览器无法预览此文件</p><span>文件仍可保存到本机播放。</span></div></div>
+          <div id="preview-error" class="small-message warning-message" role="status" hidden></div>
+          <div class="result-footer"><dl class="file-meta"><div><dt>文件大小</dt><dd id="file-size"></dd></div><div><dt>格式</dt><dd id="file-codec"></dd></div><div><dt>时长</dt><dd id="video-duration">读取中</dd></div></dl><a id="download-file" class="primary-button" href="#" download><i data-lucide="download" aria-hidden="true"></i>保存视频</a></div>
+          </div>
+          <section id="image-result" class="image-result" aria-labelledby="image-heading" hidden><div class="result-tools"><h3 id="image-heading">图片 <span id="image-count" class="event-count"></span></h3><button id="download-images" class="secondary-button" type="button"><i data-lucide="archive" aria-hidden="true"></i>打包下载</button></div><ol id="image-list" class="image-list"></ol></section>
+          <section id="content-section" class="content-section" aria-labelledby="content-heading" hidden><div class="result-tools"><h3 id="content-heading">文案</h3><div class="content-actions"><button id="copy-content" class="text-button" type="button"><i data-lucide="copy" aria-hidden="true"></i>复制</button><button id="save-content" class="text-button" type="button"><i data-lucide="file-down" aria-hidden="true"></i>保存</button></div></div><div id="content-text" class="content-text" tabindex="0"></div><div id="content-status" class="small-message" role="status" hidden></div></section>
+          <div class="download-controls"><div id="download-state" class="small-message" role="status" aria-live="polite" hidden></div><button id="cancel-download" class="text-button" type="button" hidden><i data-lucide="square" aria-hidden="true"></i>停止保存</button></div>
+          <div class="result-source"><span id="file-name"></span><a id="source-link" class="text-button" href="#" target="_blank" rel="noopener noreferrer">原内容<i data-lucide="external-link" aria-hidden="true"></i></a></div>
+        </section>
+
+        <section class="log-section" aria-labelledby="log-heading">
+          <div class="section-heading"><h2 id="log-heading">处理记录 <span id="event-count" class="event-count">0</span></h2><button id="export-log" class="icon-button" type="button" title="导出处理记录" aria-label="导出处理记录" disabled><i data-lucide="file-down" aria-hidden="true"></i></button></div>
+          <div id="log-empty" class="log-empty"><i data-lucide="list-checks" aria-hidden="true"></i><span>等待任务</span></div>
+          <ol id="event-log" class="event-log" aria-live="polite" aria-relevant="additions" hidden></ol>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer"><span>黯马AIGC</span><a class="footer-support" href="https://zhanku.zcool.com.cn/" target="_blank" rel="noopener noreferrer">支持作者<i data-lucide="external-link" aria-hidden="true"></i></a><span id="footer-status">云端服务</span></footer>
+  <dialog id="qr-dialog" class="qr-dialog" aria-labelledby="qr-dialog-title">
+    <div class="qr-dialog-heading"><h2 id="qr-dialog-title">微信扫码登录</h2><div class="qr-dialog-actions"><button id="dialog-refresh-qr" class="secondary-button" type="button"><i data-lucide="refresh-cw" aria-hidden="true"></i>刷新二维码</button><button id="qr-dialog-close" class="icon-button" type="button" title="关闭" aria-label="关闭扫码登录窗口" autofocus><i data-lucide="x" aria-hidden="true"></i></button></div></div>
+    <div class="qr-dialog-visual"><img id="qr-dialog-image" alt="腾讯官方登录页面的原始画面" hidden><span id="qr-dialog-placeholder" role="status">正在读取官方登录画面</span></div>
+  </dialog>
+</body>
+</html>
+<script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="fdbf9d29-b84a-47a2-8ad9-229723b56ca7" data-app-host="app.netlify.com"></script>

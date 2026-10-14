@@ -1,0 +1,1 @@
+window.ANMA_EXTENSION_ID="jmieokljbejfpppioadgppnhfolajoka";

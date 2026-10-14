@@ -1,0 +1,8 @@
+import http from 'node:http';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {createApi} from './netlify/functions/api.mjs';
+const values=new Map(),store={async get(k,{type}={}){const v=values.get(k);if(v==null)return null;return type==='json'?structuredClone(v):v.buffer.slice(v.byteOffset,v.byteOffset+v.byteLength);},async set(k,v){values.set(k,new Uint8Array(v));},async setJSON(k,v){values.set(k,structuredClone(v));},async delete(k){values.delete(k);}};
+const api=createApi({storeFactory:()=>store});
+const root=path.resolve('public'),types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png'};
+http.createServer(async(req,res)=>{try{const url=new URL(req.url,'http://localhost:8097');if(url.pathname.startsWith('/api/')){const chunks=[];for await(const chunk of req)chunks.push(chunk);const request=new Request(url,{method:req.method,headers:req.headers,body:['GET','HEAD'].includes(req.method)?undefined:Buffer.concat(chunks)});const response=await api(request);res.writeHead(response.status,Object.fromEntries(response.headers));if(response.body){for await(const chunk of response.body)res.write(chunk);}res.end();return;}const file=path.resolve(root,'.'+(url.pathname==='/'?'/index.html':url.pathname));if(!file.startsWith(root+path.sep))throw Error('path');const body=await fs.readFile(file);res.writeHead(200,{'content-type':types[path.extname(file)]||'application/octet-stream'});res.end(body);}catch{res.writeHead(404);res.end('Not found');}}).listen(8097,'127.0.0.1',()=>console.log('http://localhost:8097'));

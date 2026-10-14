@@ -1,0 +1,36 @@
+[build]
+  base = "output/media-downloader-web"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["server/**"]
+
+[[edge_functions]]
+  function = "media"
+  path = "/api/media"
+
+[[redirects]]
+  from = "/api/resolve"
+  to = "/.netlify/functions/resolve"
+  status = 200
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    X-Frame-Options = "DENY"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; media-src 'self' blob: https:; connect-src 'self' https: chrome-extension:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+
+[[headers]]
+  for = "/downloads/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/downloads/chrome-extension.zip"
+  [headers.values]
+    Cache-Control = "no-cache, max-age=0, must-revalidate"

@@ -1,0 +1,14 @@
+{
+  "name": "anma-media-downloader-standalone",
+  "version": "2.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node serve-local.mjs",
+    "test": "node --test tests/backend.test.mjs tests/cloud-browser.test.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.4",
+    "@sparticuz/chromium": "153.0.0",
+    "puppeteer-core": "25.11.0"
+  }
+}

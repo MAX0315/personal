@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f2">
+  <meta name="description" content="黯马 AIGC 原媒体下载助手网页版。在浏览器内解析公开作品链接、预览视频和原图、保存素材，并把本地视频转换为 MP3。">
+  <title>原媒体下载助手 · 黯马 AIGC</title>
+  <link rel="icon" href="/assets/avatar.png">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/config.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="https://zhanku.zcool.com.cn/" target="_blank" rel="noopener noreferrer" aria-label="黯马 AIGC，前往站酷支持作者">
+        <img src="/assets/avatar.png" width="42" height="42" alt="黯马 AIGC 头像">
+        <span><strong>黯马 AIGC</strong><small>创作者的素材工具箱</small></span>
+      </a>
+      <nav aria-label="辅助导航">
+        <a class="manual-link" href="/downloads/manual.pdf" target="_blank" rel="noopener noreferrer">图文说明书 <span aria-hidden="true">↗</span></a>
+        <a class="support-link" href="https://zhanku.zcool.com.cn/" target="_blank" rel="noopener noreferrer">支持作者 <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="pageTitle">
+        <div>
+          <p class="eyebrow"><span class="tiny-line"></span> ANMA · MEDIA UTILITY</p>
+          <h1 id="pageTitle">让好素材，<br class="mobile-break">留在<span>你的手边。</span></h1>
+          <p class="hero-copy">视频、原图、MP3，从链接到文件，在浏览器里完成。</p>
+        </div>
+        <div class="hero-stamp" aria-hidden="true"><span>CAPTURE</span><svg width="41" height="41" viewBox="0 0 48 48" fill="none"><path d="M24 8v25m-9-9 9 9 9-9M10 35v6h28v-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>KEEP · CREATE</span></div>
+      </section>
+
+      <div class="workspace">
+        <div class="control-column">
+          <section class="tool-card" aria-labelledby="toolTitle">
+            <div class="card-heading"><div><span class="section-number">01</span><h2 id="toolTitle">选择你的素材</h2></div><span class="small-tag">浏览器内操作</span></div>
+            <div class="tool-tabs" role="tablist" aria-label="素材来源">
+              <button id="linkTab" class="tool-tab active" role="tab" aria-selected="true" aria-controls="linkPanel" type="button"><svg viewBox="0 0 20 20" fill="none"><path d="m7.8 12.2 4.4-4.4m-6.9 3.3-1.7 1.7a3.4 3.4 0 0 0 4.8 4.8l3.4-3.4m-3.6-8.4 3.4-3.4a3.4 3.4 0 0 1 4.8 4.8l-1.7 1.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>链接解析</button>
+              <button id="localTab" class="tool-tab" role="tab" aria-selected="false" aria-controls="localPanel" type="button"><svg viewBox="0 0 20 20" fill="none"><path d="M3 6h5l2 2h7v8H3V6Zm0 0V3h6l2 3h6v2" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>本地视频转 MP3</button>
+            </div>
+
+            <div id="linkPanel" role="tabpanel" aria-labelledby="linkTab">
+              <form id="resolveForm">
+                <label for="urlInput">视频 / 图文链接或平台分享文案</label>
+                <textarea id="urlInput" name="url" rows="3" maxlength="12000" placeholder="把分享链接粘贴到这里…&#10;也可以直接粘贴整段分享文案。" spellcheck="false" autocomplete="off" required></textarea>
+                <div id="detectedLink" class="detected-link" hidden aria-live="polite"><span id="detectedPlatform" class="small-tag"></span><span id="detectedUrl"></span></div>
+                <div class="input-tools"><button id="pasteBtn" class="text-button" type="button">粘贴剪贴板</button><button id="clearBtn" class="text-button muted" type="button">清空</button></div>
+                <button id="analyzeBtn" class="button button-primary full-width" type="submit"><span>解析素材</span><svg viewBox="0 0 20 20" fill="none"><path d="M3 10h13m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+              </form>
+              <div class="platform-row" aria-label="可识别的平台"><span>视频号</span><span>抖音</span><span>小红书</span><span>哔哩哔哩</span><span>直链</span></div>
+              <p class="field-note">公开链接可直接尝试解析；需要登录的作品，可连接 Chrome 插件，使用你的正常网页登录会话。</p>
+            </div>
+
+            <div id="localPanel" role="tabpanel" aria-labelledby="localTab" hidden>
+              <input id="localFile" type="file" accept="video/*,.mp4,.mov,.mkv,.webm,.avi,.m4v" class="visually-hidden">
+              <label class="file-drop" id="fileDrop" for="localFile" tabindex="0">
+                <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M13 4h12l8 8v23H7V4h6Z" stroke="currentColor" stroke-width="1.5"/><path d="M25 4v9h8M20 29V18m-5 5 5-5 5 5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg>
+                <strong id="fileLabel">点击选择或拖入本地视频</strong><span id="fileDetails">MP4、MOV、WebM 等 · 最大 200 MB</span>
+              </label>
+              <button id="localAudioBtn" class="button button-primary full-width" type="button" disabled>提取 MP3 音频 <span aria-hidden="true">↗</span></button>
+              <p class="field-note local-note"><span class="privacy-dot"></span>文件只在你的设备中转换，不上传到服务器。转换期间请保持网页开启。</p>
+            </div>
+
+            <div id="status" class="status" role="status" aria-live="polite"><span class="status-dot"></span><span id="statusText">准备好了，粘贴一个作品链接开始。</span></div>
+          </section>
+
+          <section class="connection-card" aria-labelledby="connectionTitle">
+            <div class="connection-top"><span class="chrome-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.3"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.3"/><path d="M12 8h8M8.5 14l-4-7M13.5 16l-4 5" stroke="currentColor" stroke-width="1.3"/></svg></span><div><h2 id="connectionTitle">Chrome 会话连接</h2><span id="connectionBadge" class="connection-badge">正在检查插件…</span></div><button id="connectBtn" class="button button-subtle" type="button">连接插件</button></div>
+            <p id="connectionInfo">视频号等登录内容，通过 Chrome 插件读取账号会话。网页和插件都不需要启动本地助手。</p>
+            <div class="connection-actions"><a href="/downloads/chrome-extension-v1.8.2.zip" download>下载 Chrome 插件 v1.8.2 <span aria-hidden="true">↗</span></a><button id="loginBtn" class="text-button" type="button" hidden>登录腾讯账号 ↗</button></div>
+            <details id="chromeGuide" class="chrome-guide"><summary>首次安装 / 在 Chrome 中使用</summary><ol><li>用 Chrome 打开这个网页。<button id="copySiteBtn" class="text-button" type="button">复制网页地址</button></li><li>下载并解压 v1.8.2 插件，在 <strong>chrome://extensions</strong> 开启开发者模式，点击“加载已解压的扩展程序”，选择 <strong>video-origin-downloader-extension</strong> 文件夹。</li><li>回到此页点击“连接插件”。解析、预览和保存都在 Chrome 内完成。</li></ol><p>已有旧版时，重新加载新版文件夹。浏览器内嵌窗口无法安装 Chrome 插件，请使用 Chrome。</p><p id="siteCopyState" class="copy-state" role="status"></p></details>
+          </section>
+
+          <section id="bridgeHelp" class="bridge-help" hidden aria-labelledby="bridgeHelpTitle"><h3 id="bridgeHelpTitle">这个作品需要你的浏览器会话</h3><p id="bridgeHelpText">安装网页兼容插件并完成正常登录，再回到此网页点击连接和重新解析。</p><a id="bridgeTargetLink" class="target-link" target="_blank" rel="noopener noreferrer" hidden>打开目标作品 ↗</a><span id="bridgeTargetUrl" class="target-url" hidden></span><div class="recovery-actions"><button id="bridgeRetryBtn" class="button button-secondary" type="button">连接插件并重试</button><button id="bridgeChromeBtn" class="text-button" type="button" hidden>复制网页地址，在 Chrome 打开</button><a href="/downloads/manual.pdf" target="_blank" rel="noopener noreferrer">查看安装图解 ↗</a></div></section>
+
+          <section id="audioTask" class="audio-task" hidden aria-labelledby="audioTaskTitle"><div class="task-top"><h3 id="audioTaskTitle">MP3 音频任务</h3><button id="cancelAudioBtn" class="text-button" type="button">取消</button></div><p id="audioState" role="status" aria-live="polite"></p><progress id="audioProgress" max="100" value="0" aria-label="音频转换进度"></progress><button id="saveAudioBtn" class="button button-primary full-width" type="button" hidden>保存 MP3 文件</button><p class="field-note">192 kbps MP3 · 请保持网页开启</p></section>
+        </div>
+
+        <section class="preview-card" aria-labelledby="previewTitle">
+          <div class="card-heading"><div><span class="section-number">02</span><h2 id="previewTitle">预览与保存</h2></div><span id="sourceChip" class="small-tag">待解析</span></div>
+          <div id="emptyPreview" class="empty-preview">
+            <div class="empty-art" aria-hidden="true"><div class="art-grid"></div><div class="art-photo"><span class="art-sun"></span><svg viewBox="0 0 160 92"><path d="m0 92 44-55 36 35 28-26 52 46Z" fill="#abc1a7"/><path d="m0 92 63-40 66 40Z" fill="#6d8769"/></svg></div><div class="art-video"><div class="video-mini-top"><i></i><i></i><i></i></div><svg viewBox="0 0 40 40" fill="none"><path d="m16 12 13 8-13 8V12Z" fill="currentColor"/></svg><div class="art-track"><i></i></div></div><span class="art-audio">♪</span><span class="art-plus">+</span></div>
+            <h3>你的素材，即将出现在这里</h3><p>解析后先核对内容，再选择播放源和保存格式。</p><div class="empty-types"><span>视频预览</span><i></i><span>原图保存</span><i></i><span>MP3 提取</span></div>
+          </div>
+
+          <div id="result" hidden>
+            <h3 id="videoTitle" class="video-title"></h3>
+            <div class="meta-row"><span><small>作品 ID</small><strong id="videoId">—</strong></span><span><small id="durationLabel">视频时长</small><strong id="duration">—</strong></span></div>
+            <div id="previewWrap" class="media-preview" hidden><video id="preview" controls playsinline preload="metadata" aria-label="素材视频预览"></video></div>
+            <div id="imagePreviewWrap" class="media-preview image-preview" hidden><img id="imagePreview" alt="当前原图预览"></div>
+            <p id="previewNotice" class="preview-notice" role="status"></p>
+            <div id="sourceSelectWrap"><label for="qualitySelect">可用素材源</label><select id="qualitySelect"></select></div>
+            <div class="file-info"><span>文件名</span><strong id="fileName">—</strong><span>来源</span><strong id="sourceUrl">—</strong></div>
+            <div class="download-actions"><button id="downloadBtn" class="button button-primary" type="button" disabled>保存视频 ↓</button><button id="audioBtn" class="button button-secondary" type="button" disabled>提取 MP3 ♪</button><button id="downloadImagesBtn" class="button button-secondary" type="button" hidden>打包全部原图 ↓</button></div>
+            <div class="result-utility"><button id="frameBtn" class="text-button" type="button" disabled>保存首帧图片</button><button id="retryPreviewBtn" class="text-button muted" type="button">重新加载预览</button></div>
+            <p id="resultNote" class="field-note"></p>
+          </div>
+          <p id="downloadState" class="download-state" role="status" aria-live="polite"></p>
+          <div class="preview-footnote"><span class="small-icon" aria-hidden="true">i</span><p>地址可能有时效。保存失败时，请重新解析；是否带水印，以实际预览为准。</p></div>
+        </section>
+      </div>
+
+      <section class="how-it-works" aria-labelledby="guideTitle"><div class="guide-intro"><span class="eyebrow">A SIMPLE WORKFLOW</span><h2 id="guideTitle">三个步骤，少一点折腾。</h2></div><ol><li><span>1</span><div><strong>粘贴链接</strong><p>作品链接或整段分享文案都可以。</p></div></li><li><span>2</span><div><strong>核对预览</strong><p>确认内容、时长和需要的素材源。</p></div></li><li><span>3</span><div><strong>保存素材</strong><p>视频、原图或 MP3，按需选择。</p></div></li></ol></section>
+      <section class="usage-note" aria-labelledby="usageTitle"><h2 id="usageTitle">使用说明</h2><p>网页会解析可访问的公开链接。平台登录、作品权限、源地址时效和编码格式会影响结果；需要账号会话的内容，请连接 Chrome 插件并完成正常登录。直播、加密内容和未合并的音视频分片暂不支持。仅保存你有权使用的内容。</p></section>
+    </main>
+
+    <footer class="site-footer"><p>© 2026 黯马 AIGC <span>原媒体下载助手 · WEB v1.8.2</span></p><div><a href="/downloads/manual.pdf" target="_blank" rel="noopener noreferrer">PDF 使用说明书</a><a href="/downloads/chrome-extension-v1.8.2.zip" download>Chrome 插件 v1.8.2</a></div></footer>
+  </div>
+  <noscript><div class="noscript-message">请开启浏览器 JavaScript，以使用链接解析和本地 MP3 转换。</div></noscript>
+</body>
+</html>

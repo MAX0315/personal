@@ -1,0 +1,1 @@
+{"name":"anma-media-downloader-web","version":"1.0.0","private":true,"scripts":{"dev":"node serve-local.mjs","test":"node --test tests/backend.test.mjs tests/web-bridge.test.cjs"}}

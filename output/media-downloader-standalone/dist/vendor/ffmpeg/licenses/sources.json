@@ -1,0 +1,82 @@
+[
+  {
+    "name": "x264",
+    "url": "https://raw.githubusercontent.com/ffmpegwasm/x264/4-cores/COPYING",
+    "source": "https://github.com/ffmpegwasm/x264/tree/4-cores"
+  },
+  {
+    "name": "x265",
+    "url": "https://raw.githubusercontent.com/ffmpegwasm/x265/3.4/COPYING",
+    "source": "https://github.com/ffmpegwasm/x265/tree/3.4"
+  },
+  {
+    "name": "libvpx",
+    "url": "https://raw.githubusercontent.com/ffmpegwasm/libvpx/v1.13.1/LICENSE",
+    "source": "https://github.com/ffmpegwasm/libvpx/tree/v1.13.1"
+  },
+  {
+    "name": "lame",
+    "url": "https://raw.githubusercontent.com/ffmpegwasm/lame/master/COPYING",
+    "source": "https://github.com/ffmpegwasm/lame/tree/master"
+  },
+  {
+    "name": "ogg",
+    "url": "https://raw.githubusercontent.com/ffmpegwasm/Ogg/v1.3.4/COPYING",
+    "source": "https://github.com/ffmpegwasm/Ogg/tree/v1.3.4"
+  },
+  {
+    "name": "theora",
+    "url": "https://raw.githubusercontent.com/ffmpegwasm/theora/v1.1.1/COPYING",
+    "source": "https://github.com/ffmpegwasm/theora/tree/v1.1.1"
+  },
+  {
+    "name": "opus",
+    "url": "https://raw.githubusercontent.com/ffmpegwasm/opus/v1.3.1/COPYING",
+    "source": "https://github.com/ffmpegwasm/opus/tree/v1.3.1"
+  },
+  {
+    "name": "vorbis",
+    "url": "https://raw.githubusercontent.com/ffmpegwasm/vorbis/v1.3.3/COPYING",
+    "source": "https://github.com/ffmpegwasm/vorbis/tree/v1.3.3"
+  },
+  {
+    "name": "zlib",
+    "url": "https://raw.githubusercontent.com/ffmpegwasm/zlib/v1.2.11/README",
+    "source": "https://github.com/ffmpegwasm/zlib/tree/v1.2.11"
+  },
+  {
+    "name": "libwebp",
+    "url": "https://raw.githubusercontent.com/ffmpegwasm/libwebp/v1.3.2/COPYING",
+    "source": "https://github.com/ffmpegwasm/libwebp/tree/v1.3.2"
+  },
+  {
+    "name": "freetype",
+    "url": "https://raw.githubusercontent.com/ffmpegwasm/freetype2/VER-2-10-4/docs/LICENSE.TXT",
+    "source": "https://github.com/ffmpegwasm/freetype2/tree/VER-2-10-4"
+  },
+  {
+    "name": "freetype-FTL",
+    "url": "https://raw.githubusercontent.com/ffmpegwasm/freetype2/VER-2-10-4/docs/FTL.TXT",
+    "source": "https://github.com/ffmpegwasm/freetype2/tree/VER-2-10-4"
+  },
+  {
+    "name": "fribidi",
+    "url": "https://raw.githubusercontent.com/fribidi/fribidi/v1.0.9/COPYING",
+    "source": "https://github.com/fribidi/fribidi/tree/v1.0.9"
+  },
+  {
+    "name": "harfbuzz",
+    "url": "https://raw.githubusercontent.com/harfbuzz/harfbuzz/5.2.0/COPYING",
+    "source": "https://github.com/harfbuzz/harfbuzz/tree/5.2.0"
+  },
+  {
+    "name": "libass",
+    "url": "https://raw.githubusercontent.com/libass/libass/0.15.0/COPYING",
+    "source": "https://github.com/libass/libass/tree/0.15.0"
+  },
+  {
+    "name": "zimg",
+    "url": "https://raw.githubusercontent.com/sekrit-twc/zimg/release-3.0.5/COPYING",
+    "source": "https://github.com/sekrit-twc/zimg/tree/release-3.0.5"
+  }
+]

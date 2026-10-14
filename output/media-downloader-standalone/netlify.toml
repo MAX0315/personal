@@ -1,0 +1,46 @@
+[build]
+  base = "output/media-downloader-standalone"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["server/**"]
+
+[functions.resolve]
+  external_node_modules = ["@sparticuz/chromium", "puppeteer-core"]
+  included_files = ["server/**", "node_modules/@sparticuz/chromium/bin/**"]
+
+[functions.channels-job-background]
+  external_node_modules = ["@sparticuz/chromium", "puppeteer-core"]
+  included_files = ["server/**", "node_modules/@sparticuz/chromium/bin/**"]
+
+[[edge_functions]]
+  function = "media"
+  path = "/api/media"
+
+[[redirects]]
+  from = "/api/resolve"
+  to = "/.netlify/functions/resolve"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/channels-status"
+  to = "/.netlify/functions/channels-status"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/channels-job-background"
+  to = "/.netlify/functions/channels-job-background"
+  status = 200
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    X-Frame-Options = "DENY"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; media-src 'self' blob: https:; connect-src 'self' https:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"

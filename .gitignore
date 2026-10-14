@@ -16,3 +16,18 @@ deploy/anmaai_deploy_key*
 *.log
 .DS_Store
 Thumbs.db
+
+# Media extraction source snapshots: keep source, exclude sessions and samples.
+output/media-*/qa/
+output/media-*/tests/artifacts/
+output/media-*/deployment*.json
+output/media-*/netlify-site.json
+output/media-downloader-web/connector-package-*/
+output/media-downloader-web/cloud-browser-prototype/*.json
+!output/media-downloader-web/cloud-browser-prototype/package.json
+!output/media-downloader-web/cloud-browser-prototype/package-lock.json
+output/media-downloader-web/cloud-browser-prototype/*.mp4
+*.private.*
+.env
+.env.*
+!.env.example
